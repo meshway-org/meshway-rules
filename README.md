@@ -96,7 +96,6 @@ status.json                     流水线状态：输入、held、skipped（不�
 | 公钥 | 用途 |
 | --- | --- |
 | `ed25519:68dfc59cf585e0320129db7f1716b0dbb3d13c462fcefee7151d4b51ae1fc45c` | CI 签名钥：environment `publish` 的 secret，只有 `main` 上的 workflow 可用 |
-| `ed25519:9510100007025beaf427aa8bdf1ff328cb9cb69f15ff2b520ac0e52e2615928f` | 离线轮换钥：CI 钥泄露时用它签发，并发布去掉旧钥的 Meshway Server |
 
 ### held
 
@@ -148,7 +147,7 @@ meshway-rules inspect dist/artifacts/sha256-<hex>.mwrs
 meshway-rules match dist/artifacts/sha256-<hex>.mwrs api.openai.com
 ```
 
-`verify` 检查签名，并打开 `index.json` 引用的每个 artifact，核对 digest、字节数、计数与格式版本。用离线轮换钥签发的目录用第二把公钥验证。
+`verify` 检查签名，并打开 `index.json` 引用的每个 artifact，核对 digest、字节数、计数与格式版本。钥轮换通过发布钉新公钥的 Meshway Server 版本完成。
 
 ## 本地运行流水线
 
