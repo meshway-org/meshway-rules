@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1224,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 208
+    },
+    "digest": "sha256:70219b9334bacf56e19204af5a34d5ee0cfac44367c17a89a1f005c0adc70dd4",
+    "entries": 209,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 209
+        },
+        "redundant": 1,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 5393,
+      "format": "classical",
+      "sha256": "7a154c4c80c4f9c7fcb4c29116edd9085c4901d355d66f14fa2e317e279367d1"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/dell.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

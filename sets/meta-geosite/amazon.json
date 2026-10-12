@@ -1,0 +1,59 @@
+{
+  "conversion": {
+    "bytes": 2232,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 234
+    },
+    "digest": "sha256:fcb637af3ee3bd1607edc99ed23e33435f27914758527a9e4e2ead7254448806",
+    "entries": 234,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 190",
+          "entry": "DOMAIN-REGEX,.+\\.awsdns-[0-9][0-9]\\.(co\\.uk|com|net|org)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 243",
+          "entry": "DOMAIN-REGEX,.+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 244",
+          "entry": "DOMAIN-REGEX,.+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 12,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 234
+        },
+        "redundant": 12,
+        "unconverted": {
+          "regex": 3
+        }
+      }
+    },
+    "source": {
+      "bytes": 7478,
+      "format": "classical",
+      "sha256": "643ea9a4e7882d9ab99620c178bfb2824605ef9e8245b6bc7db568f49cc440db"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/amazon.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

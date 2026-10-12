@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 209008,
+    "counts": {
+      "exact": 0,
+      "ipv4": 8732,
+      "ipv6": 4342,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:d59196fa4cf16373cc5e3ca2bb991d3d95eda781f37a2c75dda581198a85b288",
+    "entries": 13074,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 17626,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 448078,
+      "format": "classical",
+      "sha256": "ce4d0f0171e6aac1d57d4ca18a56741bf0d6c998e644cdcda75b250dac12ac2f"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geoip/classical/jp.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

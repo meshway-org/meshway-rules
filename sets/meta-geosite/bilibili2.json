@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 240,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 3
+    },
+    "digest": "sha256:f02349ffbe1198a1607cb5302783890b3600f02c3c93a0eeef89b0a13bf6f1e8",
+    "entries": 3,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 4",
+          "entry": "DOMAIN-REGEX,(^|\\.)bilibili3(0[1-9]|1[0-2])\\.xyz$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 3
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 124,
+      "format": "classical",
+      "sha256": "26193ad35b70fe10c5d9708e57656a16ceb4a97da8b5002ea9f5e857147595e8"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/bilibili2.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

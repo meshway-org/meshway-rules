@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 14896,
+    "counts": {
+      "exact": 48,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 1537
+    },
+    "digest": "sha256:db4f80085cf70c9b95d8d383280f316e7847a8872b83bcabcac3327bfa38726e",
+    "entries": 1585,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 251,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 1541
+        },
+        "redundant": 207,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 57109,
+      "format": "classical",
+      "sha256": "721237050c515e8651db3b59eff02bc52bd874c775b76d5eaf858cbfe33dd6e6"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/apple.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
