@@ -31,7 +31,7 @@ jobs:
       contents: write
       issues: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Test pipeline scripts
         run: python3 -m unittest discover -s scripts
