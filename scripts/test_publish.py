@@ -103,10 +103,13 @@ class RetentionTest(unittest.TestCase):
 
 
 class HelpersTest(unittest.TestCase):
-    def test_pinned(self):
+    def test_held_record(self):
         record = {"upstream": {"repo": "r", "ref": "meta", "commit": "abc", "path": "p"}, "conversion": {}}
-        self.assertEqual(publish.pinned(record)["upstream"]["ref"], "abc")
+        held = publish.held_record(record, "2026-10-01T00:00:00Z", "why")
+        self.assertEqual(held["upstream"]["ref"], "abc")
+        self.assertEqual(held["held"], {"since": "2026-10-01T00:00:00Z", "reason": "why"})
         self.assertEqual(record["upstream"]["ref"], "meta")
+        self.assertNotIn("held", record)
 
     def test_artifact_file(self):
         self.assertEqual(publish.artifact_file("sha256:" + "a" * 64), "sha256-" + "a" * 64 + ".mwrs")
@@ -189,12 +192,21 @@ class BuildTest(unittest.TestCase):
         if summary.changed:
             previous = publish.read_json(out / "index.json")
             sets = {}
+            upstreams = {}
             for f in (out / "sets").rglob("*.json"):
                 record = json.loads(f.read_text())
-                sets[f"{f.parent.name}/{f.stem}"] = {
+                entry = {
                     "digest": record["conversion"]["digest"],
                     "entries": record["conversion"]["entries"],
+                    "upstream": record["upstream"],
                 }
+                if "held" in record:
+                    entry["held"] = record["held"]
+                sets[f"{f.parent.name}/{f.stem}"] = entry
+                # `meshway-rules index`: one commit per repo and ref.
+                u = record["upstream"]
+                key = (u["repo"], u["ref"])
+                self.assertEqual(upstreams.setdefault(key, u["commit"]), u["commit"], key)
             index = {"sequence": previous["sequence"] + 1 if previous else 1, "sets": sets}
             (out / "index.json").write_text(json.dumps(index))
             self.dist = out
@@ -216,18 +228,24 @@ class BuildTest(unittest.TestCase):
 
         self.assertFalse(self.build().changed, "unchanged inputs publish nothing")
 
-        self.commit({"a": "FAIL\n"})
+        second = self.commit({"a": "FAIL\n", "c": "q\n"})
         s = self.build()
         self.assertEqual(s.newly_held, ["site/a"])
         self.assertEqual(s.held["site/a"], {"since": "2026-10-03T00:00:00Z", "reason": "conversion failed: Invalid source: stub", "digest": a1})
         self.assertEqual(self.record("a")["upstream"]["ref"], first, "held record pins its commit")
+        self.assertEqual(self.record("a")["held"], {"since": "2026-10-03T00:00:00Z", "reason": "conversion failed: Invalid source: stub"})
+        self.assertEqual(self.record("c")["upstream"], {"repo": "Example/rules", "ref": "meta", "commit": second, "path": "geo/c.list"})
+        self.assertNotIn("held", self.record("c"))
         self.assertIn(publish.artifact_file(a1), self.artifacts())
 
+        # The signed catalog, not status.json, carries the hold forward.
+        (self.dist / "status.json").write_text(json.dumps({**json.loads((self.dist / "status.json").read_text()), "held": {}}))
         self.commit({"a": "x\n"})
         s = self.build()
         self.assertEqual(s.newly_held, [], "still held, not newly")
         self.assertEqual(s.held["site/a"]["since"], "2026-10-03T00:00:00Z")
         self.assertEqual(s.held["site/a"]["reason"], "entries dropped from 4 to 1")
+        self.assertEqual(self.record("a")["held"], {"since": "2026-10-03T00:00:00Z", "reason": "entries dropped from 4 to 1"})
         status = json.loads((self.dist / "status.json").read_text())
         self.assertEqual(status["held"], s.held)
 
@@ -235,6 +253,7 @@ class BuildTest(unittest.TestCase):
         self.assertEqual(s.held, {})
         self.assertEqual(self.record("a")["conversion"]["entries"], 1)
         self.assertEqual(self.record("a")["upstream"]["ref"], "meta")
+        self.assertNotIn("held", self.record("a"))
 
         self.commit({"a": None})
         s = self.build()

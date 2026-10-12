@@ -36,7 +36,7 @@ index.json.sig                  分离签名
 artifacts/sha256-<hex>.mwrs     不可变 artifact，文件名即 digest
 sets/<collection>/<name>.json   每个集合的溯源与完整转换报告（SetRecord）
 history/<sequence>.json         前 6 份目录的原文；它们引用的 artifact 仍保留
-status.json                     流水线状态：输入、held、skipped（不签名）
+status.json                     流水线状态：输入、held、skipped（不签名，供人阅读）
 ```
 
 ### `index.json`
@@ -73,15 +73,18 @@ status.json                     流水线状态：输入、held、skipped（不�
 }
 ```
 
+held 集合另有 `"held": { "since": "<RFC 3339>", "reason": "<原因>" }`（见 [held](#held)）；未 hold 的集合省略该字段。
+
 | 字段 | 说明 |
 | --- | --- |
 | `sequence` | 每次发布严格加 1；使用者拒绝小于已接受值的目录 |
 | `converter` | 构建 artifact 的 `meshway-rules` 版本与 `MWRS` 版本 |
-| `upstreams` | 本目录所有集合的上游 repo／ref／commit；同一 repo 与 ref 只有一个 commit |
+| `upstreams` | 本目录内容实际来自的上游 repo／ref／commit；同一 repo 与 ref 只有一个 commit（held 集合见 [held](#held)） |
 | `sets.<key>.digest` | `sha256:` ＋ artifact 全部字节的 SHA-256；`bytes`、`entries`、`counts` 为该 artifact 的事实 |
 | `sets.<key>.upstream` | 该集合原文的确切位置 |
 | `sets.<key>.source` | 输入格式、原文 SHA-256 与字节数 |
 | `sets.<key>.report` | 转换摘要：接受的条目（按 kind）、去冗余数、未转换原因→计数 |
+| `sets.<key>.held` | 仅 held 集合：`since`（首次 hold 的发布时间）与 `reason`；同样写在 `sets/<collection>/<name>.json` |
 
 溯源不进入 artifact：上游提交变化而集合内容不变时 digest 不变。
 
@@ -99,7 +102,7 @@ status.json                     流水线状态：输入、held、skipped（不�
 
 ### held
 
-单个集合不会因上游一次异常而消失或骤缩。以下情况沿用上一版 artifact 与记录，并在 `status.json` 记录：
+单个集合不会因上游一次异常而消失或骤缩。以下情况沿用上一版 artifact 与记录，并在签名目录的该集合上写 `held`：
 
 | 情况 | `reason` |
 | --- | --- |
@@ -107,13 +110,13 @@ status.json                     流水线状态：输入、held、skipped（不�
 | 规范条目数少于上一版的一半 | `entries dropped from <上一版> to <本次>` |
 
 ```json
-{ "held": { "meta-geosite/example": { "since": "2026-10-12T03:17:00Z", "reason": "entries dropped from 4000 to 120", "digest": "sha256:<hex>" } } }
+{ "sets": { "meta-geosite/example": { "digest": "sha256:<hex>", "…": "…", "held": { "since": "2026-10-12T03:17:00Z", "reason": "entries dropped from 4000 to 120" } } } }
 ```
 
-- `since` 是首次 hold 的发布时间，持续 hold 不变；集合恢复正常即解除。
-- held 集合的 `upstream` 保留其真实来源 commit，并把 `ref` 写成该 commit（它不是分支当前 commit 的内容）；因此 `upstreams` 中会多出一项 `ref` 等于 `commit` 的条目。
+- `index.json` 的 `sets.<key>.held` 是 hold 的唯一权威记录（签名）：流水线从上一份目录读取 `since`，Meshway Server 在目录浏览与规则集视图中原样显示。`status.json` 的 `held`（另含 `digest`）与 Release 说明只是给人看的副本。
+- `since` 是首次 hold 的发布时间，持续 hold 不变；集合恢复正常即解除，`held` 随之省略。
+- 上游一致规则：目录的 `upstreams` 列出内容实际来自的 (repo, ref, commit)，同一 repo 与 ref 只能有一个 commit。分支 ref（`meta`）只对应本次转换的 commit；held 集合的内容来自更早的 commit，它的 `upstream.ref` 写成该 commit 本身（git 可直接按 commit 取回），因此 `upstreams` 中多一项 `ref` 等于 `commit` 的条目，多个从同一 commit hold 的集合共用这一项。`ref` 不是分支名即表示 held，与 `held` 字段一致。
 - 新出现的 hold 开 issue。确认条目骤减属实后，手动运行 workflow 并在 `accept` 填入集合名（如 `meta-geosite/example`），本次即发布新内容；转换失败的 hold 不能被接受。
-- held 信息只在 `status.json` 与 Release 说明中，`index.json` 不含该字段。
 - 上游删除的文件从目录中移除（Release 说明列出）。
 
 ### 保留
@@ -128,9 +131,7 @@ status.json                     流水线状态：输入、held、skipped（不�
 
 ## 在 Meshway 中引用
 
-Meshway Server 内置两个 provider，指向本仓库 `dist` 的目录并钉住上面两把公钥：`geosite` → `meta-geosite`，`geoip` → `meta-geoip`。路由规则中 `geosite:openai`、`geoip:cn` 即引用 `meta-geosite/openai`、`meta-geoip/cn`。Server 只接受验签通过、sequence 不回退的目录，并按 digest 取 artifact、核对后使用。
-
-> Server 侧的 provider 与 `provider:name` 引用随 Meshway 规则集接线发布；在此之前它们不是可用配置，字段以 Meshway 文档为准。
+Meshway Server 内置两个 provider，指向本仓库 `dist` 的目录并钉住上面的公钥：`geosite` → `meta-geosite`，`geoip` → `meta-geoip`。路由规则中 `geosite:openai`、`geoip:cn` 即引用 `meta-geosite/openai`、`meta-geoip/cn`。Server 启动后及按 provider 的更新间隔（默认 24 小时）自己取回并验签目录，同一目录 URL 与信任钥只取一次，因此未引用任何集合前即可浏览；只接受验签通过、sequence 不回退的目录，失败时保留上一份，并按 digest 取 artifact、核对后使用。字段以 Meshway 文档为准。
 
 ## 自己验证
 

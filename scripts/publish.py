@@ -9,7 +9,9 @@ applies the hold and retention policy, and lays out the tree that
     sets/<collection>/<name>.json   SetRecord written for every published set
     artifacts/sha256-<hex>.mwrs     current and retained artifacts
     history/<sequence>.json         the previous catalogs whose artifacts are kept
-    status.json                     pipeline inputs, holds and skips (unsigned)
+    status.json                     pipeline inputs, holds and skips (unsigned,
+                                    for people; the signed record of a hold is
+                                    the set's `held` in index.json)
     index.json                      copy of the previous catalog, so `index`
                                     continues its sequence
 
@@ -105,13 +107,17 @@ def artifact_file(digest: str) -> str:
     return f"sha256-{hex_digest}.mwrs"
 
 
-def pinned(record: dict) -> dict:
-    """A held record's upstream names its own commit as the ref: its content
-    is not that of the branch's current commit, and a catalog lists one
-    commit per repo and ref."""
+def held_record(record: dict, since: str, reason: str) -> dict:
+    """The previous record of a held set, published again with its `held`.
+
+    Its upstream names its own commit as the ref. A catalog's `upstreams`
+    lists the exact (repo, ref, commit) its content came from, one commit per
+    repo and ref: the branch ref names the commit this build converted, and a
+    held set's content came from an earlier commit, which git addresses by
+    itself. Two sets held from the same commit share that entry."""
     upstream = dict(record["upstream"])
     upstream["ref"] = upstream["commit"]
-    return {**record, "upstream": upstream}
+    return {**record, "upstream": upstream, "held": {"since": since, "reason": reason}}
 
 
 # --- upstreams --------------------------------------------------------------
@@ -293,7 +299,12 @@ def build(
 
     prev_index = read_json(previous / "index.json")
     prev_status = read_json(previous / "status.json") or {}
-    prev_held: dict[str, dict] = prev_status.get("held", {})
+    # The signed catalog says which sets were held and since when.
+    prev_held: dict[str, dict] = {
+        key: entry["held"]
+        for key, entry in (prev_index["sets"] if prev_index else {}).items()
+        if entry.get("held")
+    }
 
     commits = {i: resolve(u["url"], u["ref"]) for i, u in upstreams.items()}
     inputs = {
@@ -358,9 +369,9 @@ def build(
             previous_record = read_json(previous / "sets" / collection / f"{set_name}.json")
             if previous_record is None or previous_record["conversion"]["digest"] != prev_entry["digest"]:
                 raise RuntimeError(f"{key}: previous record does not match the previous catalog")
-            write_json(record_path, pinned(previous_record))
-            copy_artifact(previous, out, prev_entry["digest"])
             since = prev_held[key]["since"] if key in prev_held else now.isoformat().replace("+00:00", "Z")
+            write_json(record_path, held_record(previous_record, since, decision.reason))
+            copy_artifact(previous, out, prev_entry["digest"])
             held[key] = {"since": since, "reason": decision.reason, "digest": prev_entry["digest"]}
             if key not in prev_held:
                 summary.newly_held.append(key)
