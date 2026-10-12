@@ -1,0 +1,142 @@
+name: Publish
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+    inputs:
+      accept:
+        description: "Sets whose entry-drop hold is released, space-separated <collection>/<name>"
+        required: false
+        default: ""
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+env:
+  # The converter: a release of this repository, pushed by the Meshway release
+  # workflow. Change both values together.
+  MESHWAY_RULES_CLI_VERSION: cli-v0.1.0-alpha.3
+  MESHWAY_RULES_CLI_SHA256: 81d0066fd641a87fa598d98bc462d8a6bf816be22e743a6bd11c2fe282059603
+  # Public key of MESHWAY_RULES_SIGNING_KEY.
+  CATALOG_KEY_ID: ed25519:68dfc59cf585e0320129db7f1716b0dbb3d13c462fcefee7151d4b51ae1fc45c
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    environment: publish
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Test pipeline scripts
+        run: python3 -m unittest discover -s scripts
+
+      - name: Install meshway-rules
+        run: |
+          set -euo pipefail
+          asset=meshway-rules-x86_64-unknown-linux-musl.tar.gz
+          curl -fsSL --retry 3 -o "$RUNNER_TEMP/$asset" \
+            "https://github.com/$GITHUB_REPOSITORY/releases/download/$MESHWAY_RULES_CLI_VERSION/$asset"
+          echo "$MESHWAY_RULES_CLI_SHA256  $RUNNER_TEMP/$asset" | sha256sum -c -
+          mkdir "$RUNNER_TEMP/bin"
+          tar -xzf "$RUNNER_TEMP/$asset" -C "$RUNNER_TEMP/bin" meshway-rules
+          "$RUNNER_TEMP/bin/meshway-rules" --version
+          echo "$RUNNER_TEMP/bin" >> "$GITHUB_PATH"
+
+      - name: Previous dist
+        id: previous
+        run: |
+          set -euo pipefail
+          mkdir "$RUNNER_TEMP/previous"
+          status=0
+          git ls-remote --exit-code origin refs/heads/dist > /dev/null || status=$?
+          case $status in
+            0)
+              git fetch -q --depth 1 origin dist
+              git archive FETCH_HEAD | tar -x -C "$RUNNER_TEMP/previous"
+              echo "commit=$(git rev-parse FETCH_HEAD)" >> "$GITHUB_OUTPUT"
+              ;;
+            2) echo "commit=" >> "$GITHUB_OUTPUT" ;;
+            *) exit "$status" ;;
+          esac
+
+      - name: Build
+        id: build
+        env:
+          ACCEPT: ${{ inputs.accept }}
+        run: |
+          set -euo pipefail -f
+          # shellcheck disable=SC2086 # ACCEPT is a word list.
+          python3 scripts/publish.py build --cli "$RUNNER_TEMP/bin/meshway-rules" --sources sources.toml \
+            --previous "$RUNNER_TEMP/previous" --out "$RUNNER_TEMP/out" --work "$RUNNER_TEMP/work" \
+            --summary "$RUNNER_TEMP/summary.json" --accept $ACCEPT
+          echo "changed=$(jq -r .changed "$RUNNER_TEMP/summary.json")" >> "$GITHUB_OUTPUT"
+
+      - name: Sign
+        if: steps.build.outputs.changed == 'true'
+        env:
+          MESHWAY_RULES_SIGNING_KEY: ${{ secrets.MESHWAY_RULES_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          test -n "$MESHWAY_RULES_SIGNING_KEY" || { echo "MESHWAY_RULES_SIGNING_KEY is not available"; exit 1; }
+          key="$RUNNER_TEMP/signing.key"
+          trap 'rm -f "$key"' EXIT
+          (umask 077 && printf '%s' "$MESHWAY_RULES_SIGNING_KEY" > "$key")
+          meshway-rules index --sign-key "$key" "$RUNNER_TEMP/out" -o "$RUNNER_TEMP/out/index.json"
+
+      - name: Verify
+        if: steps.build.outputs.changed == 'true'
+        run: meshway-rules verify --public-key "$CATALOG_KEY_ID" "$RUNNER_TEMP/out/index.json" "$RUNNER_TEMP/out"
+
+      - name: Push dist
+        id: push
+        if: steps.build.outputs.changed == 'true'
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          PREVIOUS: ${{ steps.previous.outputs.commit }}
+        run: |
+          set -euo pipefail
+          scripts/push-dist.sh "$RUNNER_TEMP/out" origin "$PREVIOUS"
+          echo "sequence=$(jq -r .sequence "$RUNNER_TEMP/out/index.json")" >> "$GITHUB_OUTPUT"
+
+      - name: Report
+        if: always() && steps.build.outcome == 'success'
+        run: |
+          set -euo pipefail
+          if [ "${{ steps.build.outputs.changed }}" = true ]; then
+            python3 scripts/publish.py notes --summary "$RUNNER_TEMP/summary.json" --index "$RUNNER_TEMP/out/index.json" > "$RUNNER_TEMP/notes.md"
+          else
+            python3 scripts/publish.py notes --summary "$RUNNER_TEMP/summary.json" > "$RUNNER_TEMP/notes.md"
+          fi
+          cat "$RUNNER_TEMP/notes.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Release
+        if: steps.push.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SEQUENCE: ${{ steps.push.outputs.sequence }}
+        run: |
+          set -euo pipefail
+          gh release create "catalog-$SEQUENCE" --verify-tag --title "Catalog $SEQUENCE" \
+            --notes-file "$RUNNER_TEMP/notes.md" \
+            "$RUNNER_TEMP/out/index.json" "$RUNNER_TEMP/out/index.json.sig" "$RUNNER_TEMP/out/status.json"
+
+      - name: Issue for new holds
+        if: always() && steps.push.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SEQUENCE: ${{ steps.push.outputs.sequence }}
+        run: |
+          set -euo pipefail
+          held=$(jq -r '.newlyHeld | join(", ")' "$RUNNER_TEMP/summary.json")
+          if [ -n "$held" ]; then
+            gh issue create --title "Catalog $SEQUENCE holds $held" --body-file "$RUNNER_TEMP/notes.md"
+          fi

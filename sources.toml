@@ -1,0 +1,33 @@
+# Rule-set collections published in the `dist` branch.
+#
+# Each collection publishes one set per upstream file matching `path`, with
+# `{name}` standing for the set name (`<collection>/<name>` in index.json).
+# Every upstream is resolved to one commit per run and every file is read at
+# that commit.
+#
+# meta-rules-dat ships each category in several encodings. The classical
+# encoding is used because it is the only text form that keeps
+# DOMAIN-KEYWORD entries and lists DOMAIN-REGEX entries (which meshway-rules
+# reports and skips) instead of dropping them silently; for the IP categories
+# it yields the same artifacts as `geo/geoip/*.list`.
+#
+# sing-geosite / sing-geoip are not published: upstream only ships compiled
+# `.srs`, which meshway-rules does not parse.
+
+[[upstream]]
+id = "meta-rules-dat"
+repo = "MetaCubeX/meta-rules-dat"
+ref = "meta"
+url = "https://github.com/MetaCubeX/meta-rules-dat.git"
+
+[[collection]]
+name = "meta-geosite"
+upstream = "meta-rules-dat"
+path = "geo/geosite/classical/{name}.list"
+format = "classical"
+
+[[collection]]
+name = "meta-geoip"
+upstream = "meta-rules-dat"
+path = "geo/geoip/classical/{name}.list"
+format = "classical"
