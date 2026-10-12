@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 240,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 2
+    },
+    "digest": "sha256:4beb1e803bb7c88ca7eaed204b3b13317be9d000cc511b45245686f04979bc2d",
+    "entries": 2,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 2
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 60,
+      "format": "classical",
+      "sha256": "57aa0feca174d8b6c82bcbd2f12761e99e5b489b8867a0c5225d82c1833ff117"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/kubakuba.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

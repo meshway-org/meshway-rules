@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 296,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 10
+    },
+    "digest": "sha256:e3df94b10630f208c293685b7417b1d6339053334516c64930dc8806c81adf81",
+    "entries": 10,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 10
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 265,
+      "format": "classical",
+      "sha256": "97c018e5650a7d998b4e7125945d985dbf2a290d774e38762dfa7cc33c368a6a"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/youquan.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

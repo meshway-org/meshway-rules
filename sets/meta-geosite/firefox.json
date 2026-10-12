@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 352,
+    "counts": {
+      "exact": 2,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 6
+    },
+    "digest": "sha256:d1fb4923b2e827fb9fc94207688cfc51581462936c209846b4116aa5ed4a41d9",
+    "entries": 8,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 6
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 267,
+      "format": "classical",
+      "sha256": "ccc8b3d3d86410d47a6de3e260b0bf696efdd8dd9e67099e41f2057e1401c680"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/firefox.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

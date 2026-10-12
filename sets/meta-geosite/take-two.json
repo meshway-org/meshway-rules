@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 424,
+    "counts": {
+      "exact": 3,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 14
+    },
+    "digest": "sha256:13a10b8c1e2ebca109075df51582f04758775447bacab82f6961201f4d187186",
+    "entries": 17,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 3,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 14
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 524,
+      "format": "classical",
+      "sha256": "dd80190ab1ea63d4d18dd9a4b1449f3d6e1defdfb2d64a7c2a60706854bcb8d3"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/take-two.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

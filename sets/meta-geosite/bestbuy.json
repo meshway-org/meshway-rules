@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1152,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 82
+    },
+    "digest": "sha256:424b7c1e951db880958f284ad4d5eadea3da3b865ecd2d79e075755283bc9b71",
+    "entries": 82,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 82
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2589,
+      "format": "classical",
+      "sha256": "0845f5cb0de9de73e508a365ab9683c785ccc4ba11036d1adefd37d77ab96b7c"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/bestbuy.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

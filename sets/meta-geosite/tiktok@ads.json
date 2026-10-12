@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 232,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 1
+    },
+    "digest": "sha256:7410061ba11313e3b671f0061f42c83079e1b4f987b87b9cb66c912ecbae1d54",
+    "entries": 1,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 1
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 34,
+      "format": "classical",
+      "sha256": "19370418da91835f2d0be43d628190f1cc97820bc28cf60387440af8c7e40710"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/tiktok@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

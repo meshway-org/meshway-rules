@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 224,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 1
+    },
+    "digest": "sha256:12338f1b33ac6cd8dd6def4a5526d836fad5735848e85a81c0b2d6972e8584ca",
+    "entries": 1,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 1
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 28,
+      "format": "classical",
+      "sha256": "44912712c412d7f05232d6d3d631880f1835b34ae0591544c8de4a62bcf7b10d"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/codecademy.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

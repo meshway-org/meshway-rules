@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 240,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 2
+    },
+    "digest": "sha256:1a35f96257c381d2cf027318bb47ab08df507fdc410c81ce1e95c85b8e67b483",
+    "entries": 2,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 2
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 66,
+      "format": "classical",
+      "sha256": "fc92ef26c39316210780f0e97282de86211852b72b811e0a81685be58cf900f4"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/polymer.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

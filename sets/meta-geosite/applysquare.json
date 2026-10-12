@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 232,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 2
+    },
+    "digest": "sha256:9bd835cef79beea67ab874957a83e1b458a1fb0b6622886f4dfae015ee277f01",
+    "entries": 2,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 2
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 59,
+      "format": "classical",
+      "sha256": "6940b2412fb09075ee30bfe82f1c7488cea5957c228eb3a5d3d77750c15aa199"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/applysquare.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1208,
+    "counts": {
+      "exact": 0,
+      "ipv4": 21,
+      "ipv6": 26,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:b9d1e27c1383e0e2506f7c0bce8707883613d0900ce98b53880e3a2dc9d1fe1f",
+    "entries": 47,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 122,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3220,
+      "format": "classical",
+      "sha256": "5a02793b17159bb001c230d085848a9b2ae186d885cae5a84f9de8c48bf6eafa"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geoip/classical/netflix.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

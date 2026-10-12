@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 280,
+    "counts": {
+      "exact": 3,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:00f8813983109a4471272ca3da156a446226800c9026f4208269528686386cc7",
+    "entries": 3,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 3,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 94,
+      "format": "classical",
+      "sha256": "2881890cf1ab2cde9f0caeb7eafa9c914c5bb9b1e80f24a6c5babeaf65abf35b"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/spotify@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

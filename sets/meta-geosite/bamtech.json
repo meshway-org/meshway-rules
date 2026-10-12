@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 256,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 3
+    },
+    "digest": "sha256:11d9e970f174694e54ab88a69fdce8d34989fe0408b289cad5eb6a90de14d6b8",
+    "entries": 3,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 3
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 81,
+      "format": "classical",
+      "sha256": "822da91c4776375be1b79940b1e8081c185ab11639f3cfbd8098b919116cf8cd"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/bamtech.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

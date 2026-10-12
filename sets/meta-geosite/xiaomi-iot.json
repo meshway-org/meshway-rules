@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 280,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 4
+    },
+    "digest": "sha256:0761cf9cc4f87969bd4b6df3cbeb408f4b0001ffdc8f93da5ff8806b6545d918",
+    "entries": 4,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 4
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 126,
+      "format": "classical",
+      "sha256": "a277f778b7faedf31f65a384fa87e99cd9a0c8e097d0926f1cb92ed015b92289"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/xiaomi-iot.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

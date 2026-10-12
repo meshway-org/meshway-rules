@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 240,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 3
+    },
+    "digest": "sha256:c5a4ce4742a2f4f08cc13a58e8dfa21b4b07b874af87c96e6656d9743ffe6f79",
+    "entries": 3,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 3
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 70,
+      "format": "classical",
+      "sha256": "cefb1ad0a2c19e2895ac8bd0d2963edc68982cd5be3d68d32a77476f3e2a60ca"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/wolai.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

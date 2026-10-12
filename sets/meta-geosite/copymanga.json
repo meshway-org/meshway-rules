@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 288,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 7
+    },
+    "digest": "sha256:15f79a6f8916a04a52d23903fff65d4f79cfefd4e949e6a6679c03935ba7d90d",
+    "entries": 7,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 7
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 194,
+      "format": "classical",
+      "sha256": "032dac2c8db35e954e9ab614304ed685f5c1fd165c02757e73d59b5b443f79be"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/copymanga.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

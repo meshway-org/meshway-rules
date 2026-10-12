@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 528,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 30
+    },
+    "digest": "sha256:9b57f02f5198d09a7efe7256cbaa2bda3b3bd1129ba4662c8568bf1fc2aaff65",
+    "entries": 30,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 30
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 872,
+      "format": "classical",
+      "sha256": "218d7e72ff42982a87f91ebb01fe707caac6f54905d75acaf685fe0e22481f75"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/sankei.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

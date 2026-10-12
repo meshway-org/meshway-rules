@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 296,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 8
+    },
+    "digest": "sha256:b0de1edd0cd13829a97834c5440cefb36fee0f48b120b397ce9864c137b3c27b",
+    "entries": 8,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 8
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 214,
+      "format": "classical",
+      "sha256": "6809e6070fe7c2d7bcc939e51b50d29dca9a0594e103c6ae1c94c80409214ac9"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/qnap.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

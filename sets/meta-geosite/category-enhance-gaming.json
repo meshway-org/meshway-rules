@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 440,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 18
+    },
+    "digest": "sha256:e97cef12789ebc265820b1eadb7208d582cc86243f0e01586c618db77d9fd624",
+    "entries": 18,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 18
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 486,
+      "format": "classical",
+      "sha256": "72816ae2dfea3b8aab55dba424e08be515cdc0e75e472949d4806385bc642d3b"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/category-enhance-gaming.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

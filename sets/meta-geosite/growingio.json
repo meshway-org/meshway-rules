@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 264,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 6
+    },
+    "digest": "sha256:674de5b838e67bd81c16c56a028cdfeaa90a055da0da1e49f4124289801e853b",
+    "entries": 6,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 6
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 149,
+      "format": "classical",
+      "sha256": "9d7fa15f2a3ebb668d197f39481508e7310564a1253308a2fc3ab65721de480a"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/growingio.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
