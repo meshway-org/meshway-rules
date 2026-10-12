@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 5872,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 558
+    },
+    "digest": "sha256:acd29d19b05f4c860b1cfcac15d4cd7825b1ec3779d25c8474be158bf29b264b",
+    "entries": 558,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 558
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 17827,
+      "format": "classical",
+      "sha256": "b839a3a8ec947e80de1579be9b93a86f15dbd93139d3f84c7836a23f99b4af4f"
+    }
+  },
+  "upstream": {
+    "commit": "83c8208bdfae92b1caaa29745f51f233b6f1847e",
+    "path": "geo/geosite/classical/autodesk.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
