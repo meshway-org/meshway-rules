@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 2528,
+    "counts": {
+      "exact": 30,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 159
+    },
+    "digest": "sha256:2698bc74a1203b21b22ba1def69e070db5ae2cf16a8941a35a3889c4308127f5",
+    "entries": 189,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 178",
+          "entry": "DOMAIN-REGEX,^chatgpt-async-webps-prod-\\S+-\\d+\\.webpubsub\\.azure\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 30,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 159
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 5817,
+      "format": "classical",
+      "sha256": "9503deb7914c9792fd1ac29bc0a87b794174391c87b54fd240e36e4c1f02aa79"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/category-ai-chat-!cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

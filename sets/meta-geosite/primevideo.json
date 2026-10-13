@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 560,
+    "counts": {
+      "exact": 10,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 13
+    },
+    "digest": "sha256:af84de61c1e6fec1989f26d57442f506af38874bc4ec804d32a366898b0a12dc",
+    "entries": 23,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 10,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 13
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 773,
+      "format": "classical",
+      "sha256": "2ce6715c4aaf04af13f3b43e6f66d82296b79ea4374dab95c430ec75c473d96c"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/primevideo.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

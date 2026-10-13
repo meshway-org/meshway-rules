@@ -1,0 +1,54 @@
+{
+  "conversion": {
+    "bytes": 456,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 30
+    },
+    "digest": "sha256:a0962e04c99a9b9988fcdff919bb8d23fe71049b19dd843ecf73100c7f3fd87e",
+    "entries": 30,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 27",
+          "entry": "xn--wcvs22d1m.hk",
+          "reason": "invalidName"
+        },
+        {
+          "at": "line 28",
+          "entry": "xn--wcvs22d1m.xn--j6w193g",
+          "reason": "invalidName"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 30
+        },
+        "redundant": 0,
+        "unconverted": {
+          "invalidName": 2
+        }
+      }
+    },
+    "source": {
+      "bytes": 1139,
+      "format": "classical",
+      "sha256": "0bc5ca034c2b60fe74e0d90509cb55f12e01393c173c7d48081aa5eca8ec0e86"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/category-scholar-hk.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
