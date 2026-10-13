@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1072,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 115
+    },
+    "digest": "sha256:56d44ddb243cfff5ac1e260343eb22398e37e993241057deae4b968d027bc715",
+    "entries": 115,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 115
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3066,
+      "format": "classical",
+      "sha256": "9265833ad530ab9165d577dbbea9f1274576a54833ca80879606a0a71c08ff6a"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/sony.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

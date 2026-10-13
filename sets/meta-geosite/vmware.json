@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1344,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 103
+    },
+    "digest": "sha256:28876ab7ae4d10c531ff6561b19a2962e02106d0bedb10c63fdb443fc8f16e95",
+    "entries": 104,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 103
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3089,
+      "format": "classical",
+      "sha256": "885911b282f339d388207a7d5ee8c6c9ee5acbe71bfc4cb0d5e8ce8ee97bced9"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/vmware.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

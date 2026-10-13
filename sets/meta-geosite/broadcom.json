@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1360,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 104
+    },
+    "digest": "sha256:4c46296606c1656a9ef63bb87230f4b8b581f806eeb874d12229b43cdc1eae0f",
+    "entries": 105,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 104
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3116,
+      "format": "classical",
+      "sha256": "1dfed37da19cafd72251395e4502f7cceda2cd77e7dae64cbbbd910699626553"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/broadcom.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

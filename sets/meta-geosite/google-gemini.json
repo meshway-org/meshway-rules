@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 760,
+    "counts": {
+      "exact": 13,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 33
+    },
+    "digest": "sha256:c10faeb48b48bd7eeed97d89ef6072de11d7e7abd12a67bb7708602861c95b56",
+    "entries": 46,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 13,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 33
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1613,
+      "format": "classical",
+      "sha256": "5d0bdd30ba80c9ac3feb2b7963a0704026d90ed7a4e2253ab7f283805ce17766"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/google-gemini.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

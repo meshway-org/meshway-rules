@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 744,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 55
+    },
+    "digest": "sha256:e6d446ed9fd9ba0b1eac493cf485ede13b26c252c1d092ca91e25024e9a2cb4e",
+    "entries": 55,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 55
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1486,
+      "format": "classical",
+      "sha256": "97f512e4d8175c8ab2a62c52bacad6f4cea7b29a892499e4cfb8b4fa70778b99"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/category-news-ir.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

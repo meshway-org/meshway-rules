@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 600,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 51
+    },
+    "digest": "sha256:b480f01b02eb2e05f658eda59bf0215e2a3ce1e60f2d44b1c1b9e79c35cd2a69",
+    "entries": 51,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 73
+        },
+        "redundant": 22,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2118,
+      "format": "classical",
+      "sha256": "5a00f12ba415cd50504c7bd0b0a33e6006e68d36bf0be5727a678feb595acf55"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/xiaomi.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
