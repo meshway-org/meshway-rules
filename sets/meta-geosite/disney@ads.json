@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 232,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:d71f99b52ccb5ec87634b3f2fddbacf3db3c5b6d47b78ad11a852807dee67df3",
+    "entries": 1,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 26,
+      "format": "classical",
+      "sha256": "00412e5375644db81c465a869885bf5d7cc6a40b441809d5ebb094c460698732"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/disney@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

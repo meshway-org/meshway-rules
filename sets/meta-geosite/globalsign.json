@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 400,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 19
+    },
+    "digest": "sha256:fec3f0161235d54d656854b70be188a1d2b7d315ce2d75a15976ad3d22fa1926",
+    "entries": 20,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 19
+        },
+        "redundant": 1,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 642,
+      "format": "classical",
+      "sha256": "66a1b4ac1e074df559d525b6f939aef64e6ed154da1222b0b53b76efe6fcbba5"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/globalsign.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

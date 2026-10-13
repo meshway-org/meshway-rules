@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 952,
+    "counts": {
+      "exact": 12,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 118
+    },
+    "digest": "sha256:e05a1ab54444c28df62f600c8c3c60bb0a9e0f5f01dd4dbda56173a74d03e93d",
+    "entries": 130,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 131",
+          "entry": "DOMAIN-REGEX,^[a-z]([a-z0-9-]{0,61}[a-z0-9])?$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 12,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 118
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 4235,
+      "format": "classical",
+      "sha256": "8093ba1a1fb28dc5330528af97740262910869378b4fd8286c35fbb00197f1ca"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/private.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

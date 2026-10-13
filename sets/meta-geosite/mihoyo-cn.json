@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 352,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 15
+    },
+    "digest": "sha256:ba05704abd303d580ab0660129e4db4899bbc01040dd9437ab1ac8bbaffe101c",
+    "entries": 15,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 16",
+          "entry": "DOMAIN-REGEX,^.+-mihayo\\.akamaized\\.net$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 16
+        },
+        "redundant": 1,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 473,
+      "format": "classical",
+      "sha256": "15e4cd0b2c719ef3a6218b7b8c7eda97ac4924956bf0e3480b7f1ed57c730fc6"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/mihoyo-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

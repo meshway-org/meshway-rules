@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 632,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 52
+    },
+    "digest": "sha256:3dcc954ed045135181e719b05cf2ec8a2008c46f0c9101d39b2af6907f13cf60",
+    "entries": 53,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 52
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1442,
+      "format": "classical",
+      "sha256": "147f4d0d92b08b453a8c09ab7f414699aa4d79e5a35d45e95d26209d4dc8b35f"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/icloud.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 592,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 45
+    },
+    "digest": "sha256:132e10ae1d68e1d2ca1cc1c2d0736d435a9d1b150225d87d4441ea3cf129ed39",
+    "entries": 45,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 45
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1158,
+      "format": "classical",
+      "sha256": "7c4ad93bb4a9973daa7b4f5578967f30aec9a624274a8024d633fd146ed8ad17"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/kingsoft.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

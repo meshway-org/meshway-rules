@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 456,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 24
+    },
+    "digest": "sha256:833200506d48ff3922eeff9fe4f6150abc10beffd4fb67ce7f855d3b526cb8a5",
+    "entries": 24,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 24
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 657,
+      "format": "classical",
+      "sha256": "9e86c896de40eba53bbeeec6b8f11e6eb7ef325de69001b01399386def08ef5e"
+    }
+  },
+  "upstream": {
+    "commit": "bf52d18cf9f047308cf3b1844e5e9211989d2e03",
+    "path": "geo/geosite/classical/twitter.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
