@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 7584,
+    "counts": {
+      "exact": 6,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 910
+    },
+    "digest": "sha256:deb15f83961d359e442d933cdc0e12a1daa81419a25df83c30773274b5a33afc",
+    "entries": 916,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 33,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 922
+        },
+        "redundant": 39,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 27601,
+      "format": "classical",
+      "sha256": "22128d7535c1d91df7fda45159dae4afa14930f1a7cfc676d705d5d36391c86a"
+    }
+  },
+  "upstream": {
+    "commit": "9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288",
+    "path": "geo/geosite/classical/bytedance.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
