@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1088,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 92
+    },
+    "digest": "sha256:69a14cdbce60d5fcbfb60fd1c9fba91be35f5a0bbebad0751587b9f9e9f3e36d",
+    "entries": 93,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 6,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 94
+        },
+        "redundant": 7,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2678,
+      "format": "classical",
+      "sha256": "f938e08c78c5ab83456f08d99a7374e016dbc2bac4ed2618246c26c720a56fe1"
+    }
+  },
+  "upstream": {
+    "commit": "9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288",
+    "path": "geo/geosite/classical/sber.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

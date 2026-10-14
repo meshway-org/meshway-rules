@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 648,
+    "counts": {
+      "exact": 2,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 63
+    },
+    "digest": "sha256:be98a2bb4cb38d062e85a995f24405d6e97f5b4ca6282a25bb5d0a2d790f31b8",
+    "entries": 65,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 3,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 63
+        },
+        "redundant": 1,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1758,
+      "format": "classical",
+      "sha256": "5d9eba719d2877cbc071955208e18844f442b3a7db4396a15ceb79a538d088ad"
+    }
+  },
+  "upstream": {
+    "commit": "9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288",
+    "path": "geo/geosite/classical/nvidia.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

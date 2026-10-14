@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 600,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 71
+    },
+    "digest": "sha256:8535d01c00fa70dfcd595e57a3397737bce0685de5a367bc1e68d11c995722a8",
+    "entries": 71,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 71
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1785,
+      "format": "classical",
+      "sha256": "108247a71b81a2cb5d39358ba70ce05f2b4ce38aaa090893b08a7f42423b6a29"
+    }
+  },
+  "upstream": {
+    "commit": "9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288",
+    "path": "geo/geosite/classical/canon.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
