@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 3472,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 362
+    },
+    "digest": "sha256:21d4e44f4ab6feb8c8c5f95609753389c4ec3344d606d330db1655214fd2e27d",
+    "entries": 363,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 362
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 10416,
+      "format": "classical",
+      "sha256": "44bb10d74de6c349cb9b985fb65f5e26675a8a42054b82d30a88eb9d659a0721"
+    }
+  },
+  "upstream": {
+    "commit": "361f2c8a60b704d12220d3b370ced151f89c678c",
+    "path": "geo/geosite/classical/ebay.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
