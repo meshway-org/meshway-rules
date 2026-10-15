@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 544,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 26
+    },
+    "digest": "sha256:cd599443c15aec7301dce0d858c18e226782a37ae896bd5057ba43b6dcccf40f",
+    "entries": 26,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 26
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 750,
+      "format": "classical",
+      "sha256": "4e36021edbd4d75fc587b5ad1a525594da7fbb2c7f593d5d53a941c60e7d4004"
+    }
+  },
+  "upstream": {
+    "commit": "9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288",
+    "path": "geo/geosite/classical/category-tech-media.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
