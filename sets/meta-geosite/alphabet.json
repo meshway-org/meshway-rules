@@ -1,0 +1,54 @@
+{
+  "conversion": {
+    "bytes": 5808,
+    "counts": {
+      "exact": 19,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 838
+    },
+    "digest": "sha256:755fed9c55b75a22a7c38ac85b36b71d916e94b3072d3def1489f850d189e0e0",
+    "entries": 857,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 1085",
+          "entry": "DOMAIN-REGEX,^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 1086",
+          "entry": "DOMAIN-REGEX,^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 236,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 849
+        },
+        "redundant": 228,
+        "unconverted": {
+          "regex": 2
+        }
+      }
+    },
+    "source": {
+      "bytes": 30485,
+      "format": "classical",
+      "sha256": "3f5c3f9527741ce9f46e7e2047c54e6cfc49e3d3c61396be2df8937b23b90718"
+    }
+  },
+  "upstream": {
+    "commit": "361f2c8a60b704d12220d3b370ced151f89c678c",
+    "path": "geo/geosite/classical/alphabet.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
