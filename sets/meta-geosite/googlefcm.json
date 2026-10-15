@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 280,
+    "counts": {
+      "exact": 12,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:2ad5041dd33a58cd7aa530e6c3e99fc272d48f3474aa330feb550d9bf9edac1e",
+    "entries": 12,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 12,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 340,
+      "format": "classical",
+      "sha256": "2261ac7f40557c12ba72b2c7763350b8c84d9d487e3cbaf45c789deb10c5988d"
+    }
+  },
+  "upstream": {
+    "commit": "361f2c8a60b704d12220d3b370ced151f89c678c",
+    "path": "geo/geosite/classical/googlefcm.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

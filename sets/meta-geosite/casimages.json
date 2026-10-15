@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 224,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 1
+    },
+    "digest": "sha256:c0e7888e56a61d35d7c8fe68ffa697fff0d6b8a71c95f6279131d6a1f11a465e",
+    "entries": 1,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 1
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 27,
+      "format": "classical",
+      "sha256": "3a6414dfb81dd18c15a53835853563f17062113fe8e090a9bab713acc132c4a7"
+    }
+  },
+  "upstream": {
+    "commit": "361f2c8a60b704d12220d3b370ced151f89c678c",
+    "path": "geo/geosite/classical/casimages.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

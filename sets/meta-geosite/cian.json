@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 320,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 7
+    },
+    "digest": "sha256:e9a73a5ed7ada8d49c6a4597dde2e2fd0d8265cdef5f80b9c2fb18e1db6fa502",
+    "entries": 7,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 7
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 212,
+      "format": "classical",
+      "sha256": "a9970dbd982a736bbbeaa5043a3607057e37f86c359656b0187b55e8d5906d5c"
+    }
+  },
+  "upstream": {
+    "commit": "361f2c8a60b704d12220d3b370ced151f89c678c",
+    "path": "geo/geosite/classical/cian.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

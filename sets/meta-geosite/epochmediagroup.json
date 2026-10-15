@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 744,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 68
+    },
+    "digest": "sha256:f75f0e902aa703b7e5f94550813173555ea50a52fd13defbf539b21c5879a31e",
+    "entries": 68,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 68
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1900,
+      "format": "classical",
+      "sha256": "0c8f1a7a826e38a9cf710931d0fbff11154a35fd2dc8a8f33f45e26e56227311"
+    }
+  },
+  "upstream": {
+    "commit": "361f2c8a60b704d12220d3b370ced151f89c678c",
+    "path": "geo/geosite/classical/epochmediagroup.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
