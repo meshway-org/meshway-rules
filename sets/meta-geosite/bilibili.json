@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 600,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 52
+    },
+    "digest": "sha256:8f595565f091f33f982e4a3ddf5c82e66412e855f203367ee8fd2bf1fca953e9",
+    "entries": 53,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 52
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1409,
+      "format": "classical",
+      "sha256": "b93ec1a29d89731cc67c3ca13dd39b79742fb0b0faaf1def097d598cafa92c78"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geosite/classical/bilibili.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

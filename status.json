@@ -1,0 +1,26 @@
+{
+  "held": {},
+  "inputs": {
+    "converter": "meshway-rules 0.1.0-alpha.15",
+    "sources": "3d0fda3f200f03f929223f802e7938f67e22456f9357d1ee56e409977d6baeae",
+    "upstreams": [
+      {
+        "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+        "ref": "meta",
+        "repo": "MetaCubeX/meta-rules-dat"
+      }
+    ]
+  },
+  "schema": 1,
+  "skipped": {
+    "meta-geosite/category-entertainment-cn@cn": "conversion failed: No source item could be converted.",
+    "meta-geosite/category-games-cn@cn": "conversion failed: No source item could be converted.",
+    "meta-geosite/category-speedtest@ads": "conversion failed: No source item could be converted.",
+    "meta-geosite/epicgames@cn": "conversion failed: No source item could be converted.",
+    "meta-geosite/mihoyo-cn@cn": "conversion failed: No source item could be converted.",
+    "meta-geosite/mihoyo@cn": "conversion failed: No source item could be converted.",
+    "meta-geosite/okaapps@cn": "conversion failed: No source item could be converted.",
+    "meta-geosite/ookla-speedtest@ads": "conversion failed: No source item could be converted.",
+    "meta-geosite/speedtest@ads": "conversion failed: No source item could be converted."
+  }
+}
