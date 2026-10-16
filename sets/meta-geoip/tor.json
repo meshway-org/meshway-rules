@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 4616,
+    "counts": {
+      "exact": 0,
+      "ipv4": 551,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:ae9021504ec262e5d977a79144168a28f57bb909c4ac88f745bcaab4ab3ae1e3",
+    "entries": 551,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 645,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 16247,
+      "format": "classical",
+      "sha256": "1ed6a4ad71ff64576da845e2a9e34c256b425ccc9cd47b91cbed055fc2b09b35"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geoip/classical/tor.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
