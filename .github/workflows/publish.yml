@@ -17,8 +17,8 @@ concurrency:
 env:
   # The converter: a release of this repository, pushed by the Meshway release
   # workflow. Change both values together.
-  MESHWAY_RULES_CLI_VERSION: cli-v0.1.0-alpha.13
-  MESHWAY_RULES_CLI_SHA256: 4d4f384c97864623c96f2443ccb4fe8aba083cbda0647ccfd8c17eec39867fc3
+  MESHWAY_RULES_CLI_VERSION: cli-v0.1.0-alpha.14
+  MESHWAY_RULES_CLI_SHA256: 7e1856f47b2d91514e150755fc2671b7af30647daaf6ee958b8ae19a27b8726e
   # Public key of MESHWAY_RULES_SIGNING_KEY.
   CATALOG_KEY_ID: ed25519:68dfc59cf585e0320129db7f1716b0dbb3d13c462fcefee7151d4b51ae1fc45c
 
