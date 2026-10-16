@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 256,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 5
+    },
+    "digest": "sha256:4499ee795be184392a0c5d56036a28cd0369ddc5839b9e7d5dd576d4e5dc7490",
+    "entries": 5,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 5
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 116,
+      "format": "classical",
+      "sha256": "e394b78e3721ffec0ab866b5cc0b0454c6b57d28160a367630fd9c7009804d12"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geosite/classical/godaddy.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

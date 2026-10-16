@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 640,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 41
+    },
+    "digest": "sha256:cb95c01b75a12d2e9d904b403aa266927be854e833ddf39b5859ee0e7b11b685",
+    "entries": 41,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 41
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1161,
+      "format": "classical",
+      "sha256": "0dcf72e13f9c2de69a94e4749c556ee28978b4cfa78eaa4bdd7b9328a933b1af"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geosite/classical/salesforce.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

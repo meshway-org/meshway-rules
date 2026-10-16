@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 472,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 30
+    },
+    "digest": "sha256:74cb66fb661e6aeee3d056db9511d0063abf73e4bfdd16a90df1c7608c1ddf3d",
+    "entries": 30,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 30
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 781,
+      "format": "classical",
+      "sha256": "f01945197c8cf982a7346aecc6dd268afbe88a8d2cbc3eee555823145ef28415"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geosite/classical/rakuten.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

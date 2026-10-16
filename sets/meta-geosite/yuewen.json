@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 416,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 22
+    },
+    "digest": "sha256:62fb3ed83d995cc89d848e31be0475ea06945d4f3bfca69867fe7f645074a25c",
+    "entries": 22,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 22
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 575,
+      "format": "classical",
+      "sha256": "b451faa6cf9ac109ab9dcbbcec90395c6c02fe82bfe83532ca6b01d614b6137e"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geosite/classical/yuewen.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

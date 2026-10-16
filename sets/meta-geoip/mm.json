@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 12312,
+    "counts": {
+      "exact": 0,
+      "ipv4": 389,
+      "ipv6": 281,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:31095b16d396acf1aa96ceb3c98e77d6d9b20d977218a505ecc1ce704690af3f",
+    "entries": 670,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 778,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 20025,
+      "format": "classical",
+      "sha256": "9a27ea054c4be2868aa68e7bd867f6b4e8ea0641b3e87b3e700aa7029b06cd11"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geoip/classical/mm.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

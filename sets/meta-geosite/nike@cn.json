@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 352,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 20
+    },
+    "digest": "sha256:7476e1e4d577932742cdeefed9bbb68d2d400c4ddc1770952110a8f43f928a43",
+    "entries": 20,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 20
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 576,
+      "format": "classical",
+      "sha256": "7ef79e3719ae91ddeb6f17ea1263f7cebd0850874c99c7c16cc8b6ced4e32ae6"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geosite/classical/nike@cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 328,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 8
+    },
+    "digest": "sha256:44be3ad2daad295559756fc3f15dd51e60a7fd5ad9c63c256e05422fc3e017a1",
+    "entries": 9,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 8
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 269,
+      "format": "classical",
+      "sha256": "b1790d825efa0d22258c89c5d3cd3b39cb98d1d13c9dae05d56fd434ea0856d8"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geosite/classical/anthropic.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

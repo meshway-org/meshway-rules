@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1688,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 131
+    },
+    "digest": "sha256:3a283efedd3972704e98c35d1838d38b6c7174aaa1ef9d168c036c3742a16888",
+    "entries": 131,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 131
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3527,
+      "format": "classical",
+      "sha256": "d5b2cd10d3da79a22c9e87b39cddc727716c6dbed75bd2a77e0eae54af602e92"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geosite/classical/category-media-ru-blocked.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

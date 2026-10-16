@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 232,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 2
+    },
+    "digest": "sha256:9676e6cb62fbfdd17d75a77b0d227a4ba6cd194d575e23378413566b2dba0665",
+    "entries": 2,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 2
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 51,
+      "format": "classical",
+      "sha256": "7aa4f91855c23bbf623025c597b5113b036892c95179e39ac332f6b276bf97c2"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geosite/classical/moxing.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

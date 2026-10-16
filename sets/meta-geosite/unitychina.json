@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 248,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 4
+    },
+    "digest": "sha256:1bf9f73a4254545876f3f7b0a56bbeaecf7f515271dae473a645392e34bfa631",
+    "entries": 4,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 9
+        },
+        "redundant": 5,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 279,
+      "format": "classical",
+      "sha256": "7b240420553afb246ce2f3e7bb93fa7aacb060d24049d2f8d92066cf0717ef9e"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geosite/classical/unitychina.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

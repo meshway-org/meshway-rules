@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 328,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 11
+    },
+    "digest": "sha256:db854b0cd211c00b4d1abc7cf5c77e1d967bb1d8421189a9755109a8a8128cd1",
+    "entries": 11,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 11
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 298,
+      "format": "classical",
+      "sha256": "8edec0aa24eba0379fe7de550a52ab268bf7be1281964b40c5a41c14ce60b273"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geosite/classical/atlassian.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

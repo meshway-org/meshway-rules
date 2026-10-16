@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 264,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 4
+    },
+    "digest": "sha256:20537e19f9454c0a8e6ba62853fa908ff996ef2a338176bbc50580a0cdaaf0e9",
+    "entries": 4,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 4
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 104,
+      "format": "classical",
+      "sha256": "b1dca3bdb9fedbae061f63df6ce6d1bf9bc3d0c7dfeef3d5329b3c56ba5ee8c9"
+    }
+  },
+  "upstream": {
+    "commit": "4bd4f6af51d9656d0b417996326f576365057c76",
+    "path": "geo/geosite/classical/mikrotik.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
