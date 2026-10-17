@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 304,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 11
+    },
+    "digest": "sha256:fc1ddf79b97a62f201a7836fd85510ba7eb2c74f0ca88ee8d123dffd7da99149",
+    "entries": 11,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 11
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 311,
+      "format": "classical",
+      "sha256": "d7d8ef21b76b369d5478fb5b3bb93ad5516c122b4af3b97f894b17a90a45a206"
+    }
+  },
+  "upstream": {
+    "commit": "48fce8a7df81e254ee1dc8b64d2d34f840208849",
+    "path": "geo/geosite/classical/slack.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

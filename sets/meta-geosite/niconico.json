@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 296,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 10
+    },
+    "digest": "sha256:1adf0b226da87f53b1af74179ad6bd0091f0c9f2bf47ea377b107aa7d268b368",
+    "entries": 10,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 10
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 246,
+      "format": "classical",
+      "sha256": "64f79ce59273322c2e1a60cbc5dc6d76a0932307d9c42074fb02247f693681d9"
+    }
+  },
+  "upstream": {
+    "commit": "48fce8a7df81e254ee1dc8b64d2d34f840208849",
+    "path": "geo/geosite/classical/niconico.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

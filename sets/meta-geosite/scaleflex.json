@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 248,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 3
+    },
+    "digest": "sha256:e999ded2dd0571fcba75918e5cd10a0c1c577ae6d9b48a5c2aad1301e892b21f",
+    "entries": 3,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 3
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 81,
+      "format": "classical",
+      "sha256": "0ad2ae7df0de8039f06527816887da3b5a7ac34c0b4d7b4f58ceb872fb91e450"
+    }
+  },
+  "upstream": {
+    "commit": "48fce8a7df81e254ee1dc8b64d2d34f840208849",
+    "path": "geo/geosite/classical/scaleflex.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

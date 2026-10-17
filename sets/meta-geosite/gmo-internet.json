@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1760,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 143
+    },
+    "digest": "sha256:d24125306c907097002821073a566f561f4e569485fe790251a480892a8cba32",
+    "entries": 144,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 143
+        },
+        "redundant": 1,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3933,
+      "format": "classical",
+      "sha256": "664192572ede2273593b632dd6fbaf9107ca39937facfe48bdfcab14f908b3c0"
+    }
+  },
+  "upstream": {
+    "commit": "48fce8a7df81e254ee1dc8b64d2d34f840208849",
+    "path": "geo/geosite/classical/gmo-internet.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

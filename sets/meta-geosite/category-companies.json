@@ -1,0 +1,74 @@
+{
+  "conversion": {
+    "bytes": 61352,
+    "counts": {
+      "exact": 88,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 3,
+      "subdomain": 0,
+      "suffix": 7584
+    },
+    "digest": "sha256:40a916aa129caad946bf338967534b0844aaafa808cdfcd8caf4c879059a8772",
+    "entries": 7675,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 7555",
+          "entry": "DOMAIN-REGEX,.+\\.awsdns-[0-9][0-9]\\.(co\\.uk|com|net|org)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 7556",
+          "entry": "DOMAIN-REGEX,^ewcdn[0-9]+\\.nowe\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 7879",
+          "entry": "DOMAIN-REGEX,.+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 7880",
+          "entry": "DOMAIN-REGEX,.+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 8069",
+          "entry": "DOMAIN-REGEX,^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 8070",
+          "entry": "DOMAIN-REGEX,^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 966,
+          "keyword": 3,
+          "subdomain": 0,
+          "suffix": 7669
+        },
+        "redundant": 963,
+        "unconverted": {
+          "regex": 6
+        }
+      }
+    },
+    "source": {
+      "bytes": 255053,
+      "format": "classical",
+      "sha256": "134e6d6852c33b7f4a983aae241a26ca56f2c2f4a4205cd762b1fe2d25bc7236"
+    }
+  },
+  "upstream": {
+    "commit": "48fce8a7df81e254ee1dc8b64d2d34f840208849",
+    "path": "geo/geosite/classical/category-companies.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

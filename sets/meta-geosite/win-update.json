@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2248,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 364
+    },
+    "digest": "sha256:be032944a00b5fedc88d0b4ffae8109e15501fa3f7f0477c1b06aa87cf26264a",
+    "entries": 364,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 364
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 16879,
+      "format": "classical",
+      "sha256": "625fb88bbef1d5dfa427c86dc765ea4e951e6d23f650217747b637adc82046ee"
+    }
+  },
+  "upstream": {
+    "commit": "48fce8a7df81e254ee1dc8b64d2d34f840208849",
+    "path": "geo/geosite/classical/win-update.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

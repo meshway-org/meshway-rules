@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2440,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 244
+    },
+    "digest": "sha256:7ce58785ef7900de740a72710379841609fc8e7090ab7537dd713533ae83e52d",
+    "entries": 245,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 244
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 7585,
+      "format": "classical",
+      "sha256": "038803184236c14dd1a6ab079ac8713339402a37f7bdc60151806944404acf7c"
+    }
+  },
+  "upstream": {
+    "commit": "48fce8a7df81e254ee1dc8b64d2d34f840208849",
+    "path": "geo/geosite/classical/paypal.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
