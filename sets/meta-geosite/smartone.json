@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 424,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 15
+    },
+    "digest": "sha256:0ab3a0b5f0a7cd1f61e02722499985e92815c7fa302e772b27054542b820d39a",
+    "entries": 15,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 15
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 480,
+      "format": "classical",
+      "sha256": "937951f1cfd8c528b39490086b9a0a8b745629df98c0be6319ce43e6f124ca92"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/smartone.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

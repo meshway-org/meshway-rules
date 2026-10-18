@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 248,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 2
+    },
+    "digest": "sha256:32879ca778bfddcda4a557afe54e54b86f446a8e8ad3ece0bacd2dd6da8a57a2",
+    "entries": 2,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 2
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 57,
+      "format": "classical",
+      "sha256": "b58eca0924b30f4144ec01d948dcde6417b11b80ad973b26e429fb1154bd8b00"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/yuketang.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

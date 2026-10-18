@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 224,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 1
+    },
+    "digest": "sha256:d57640b4ad6bc1b8ed2cc4a56fe6784db99a9f29c3c1f56739794b7b2fd0ec89",
+    "entries": 1,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 1
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 24,
+      "format": "classical",
+      "sha256": "c4827c049a87e8b5d407b7754f3ee19067b214ac6d8d93a9faa4671d218155e4"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/smena.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

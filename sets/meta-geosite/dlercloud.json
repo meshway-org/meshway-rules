@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 248,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 4
+    },
+    "digest": "sha256:bd84a28135ab3e7234dc8aee81fcb9e128a87c97d903d7c7c94faa894f046eaa",
+    "entries": 4,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 4
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 108,
+      "format": "classical",
+      "sha256": "29cedc4f2babebaf0aee9d4ac9859426a0e52121e8f886955da4d1418dbfb35c"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/dlercloud.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 240,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 2
+    },
+    "digest": "sha256:3a8242d3f52f323a42bb7bd09dcec9d19e58951c628fc6d404b10d95489fad4d",
+    "entries": 2,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 3",
+          "entry": "DOMAIN-REGEX,(^|\\.)cav1(0[2-9]|1[0-9])\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 2
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 102,
+      "format": "classical",
+      "sha256": "c666cd6d0eeb1957be96813bb68d5b42728d48f9932bd6d2d8217596e3ac417f"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/cavporn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

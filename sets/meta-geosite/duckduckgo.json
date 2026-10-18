@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 608,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 44
+    },
+    "digest": "sha256:fc6a42ddd922ba047468d1e376d383ede49a5a5ec2841bc4b779b6cd6b885e7d",
+    "entries": 44,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 44
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1228,
+      "format": "classical",
+      "sha256": "c1fc1d9b03ec8764cc0818498ce8a7c34fd145be90bb4d01c4eb6a7bdad15362"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/duckduckgo.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

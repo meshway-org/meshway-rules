@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 384,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 28
+    },
+    "digest": "sha256:60643a7bc5f31b5dfc42c2b320735f35f96479f6c3a5f229631ece333c2897de",
+    "entries": 28,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 28
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 514,
+      "format": "classical",
+      "sha256": "a394c2198e89b56ef4147b85ec12043b342d9fb148b06125d76ff2a6e0059147"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/tld-opennic.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

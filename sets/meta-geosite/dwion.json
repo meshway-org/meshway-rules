@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 344,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 14
+    },
+    "digest": "sha256:0dd165cfc740547f3674e04794ded6fa0b5b11d233811eb47bc777a4b60ca85b",
+    "entries": 14,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 14
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 348,
+      "format": "classical",
+      "sha256": "6eea0ca4137f464ac432b00f1da2a94534e0fdc19c89c610cb88a083f5feabd6"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/dwion.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

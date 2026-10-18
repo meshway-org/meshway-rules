@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 304,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 10
+    },
+    "digest": "sha256:b3aa61585429f645c0dd226fd82e47a7c3f98e68cd8b312ab7d142c1f6bb3b04",
+    "entries": 10,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 10
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 262,
+      "format": "classical",
+      "sha256": "9ddfb10a82166e297a14e82842f40f89251d7469b2cf9834c0dd99ca0229336a"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/qihoo360@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

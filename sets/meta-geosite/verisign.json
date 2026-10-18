@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 392,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 33
+    },
+    "digest": "sha256:4bb036d67164a364ecccea2647c7d9c0f0af9cba278235e1144accf9f5cb7f4c",
+    "entries": 33,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 33
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 914,
+      "format": "classical",
+      "sha256": "e506016cad6da82ec7517943d05df36b672cd8c647555aee0041d3bcd02da710"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/verisign.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

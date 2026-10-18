@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 392,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 13
+    },
+    "digest": "sha256:95b6081001c262963144be9f0ce64e63dfe9b6f91f020897a827f1e5d10b0072",
+    "entries": 13,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 13
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 374,
+      "format": "classical",
+      "sha256": "8ecebd2dd623582a30963d46347a2fd3f59b78ca6cf096ef773e4e8605624862"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/gaijin.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

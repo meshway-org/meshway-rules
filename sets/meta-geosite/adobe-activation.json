@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 592,
+    "counts": {
+      "exact": 134,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:de273116c724a050d69573d6a33825340356b25f0a6b45b3104061bc990fc559",
+    "entries": 134,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 134,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 4292,
+      "format": "classical",
+      "sha256": "edd79fac60b78e045274dd3f6b8b0fb8ac50c6ac11f2f8859d17b956d8254df9"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/adobe-activation.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

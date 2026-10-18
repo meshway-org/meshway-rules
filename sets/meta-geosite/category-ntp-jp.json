@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 448,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 28
+    },
+    "digest": "sha256:8e23efa4f7abc7281a8d4a6b39f27fcd3f7cc73d275535943c4129315ce8534d",
+    "entries": 28,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 28
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 905,
+      "format": "classical",
+      "sha256": "6e452dc89576fe0295bdf824c2fa7016aa32e6395fa28f265e8c0bd570b6803e"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/category-ntp-jp.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 304,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 7
+    },
+    "digest": "sha256:5d5078cdf6be07f8a037ba570f0e91585eb03878fdd2e7be35cac1e4f911ce83",
+    "entries": 7,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 7
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 196,
+      "format": "classical",
+      "sha256": "84eff9031a4d35d3714f1a1dffe9cd120d9dbb96060c8ef4be160252f7380e9e"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/thesun.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

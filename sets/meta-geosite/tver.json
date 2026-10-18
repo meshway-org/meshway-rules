@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 256,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 5
+    },
+    "digest": "sha256:e138bb2551ac2a852196fbb6df3b9750030a4701a99621fd05f064c899455ec9",
+    "entries": 5,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 5
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 123,
+      "format": "classical",
+      "sha256": "8f829b9962caf748d65a243c158f6a0a124ff654886416049739344a7a2c7d23"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/tver.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

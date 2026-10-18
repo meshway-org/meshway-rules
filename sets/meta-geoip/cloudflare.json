@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 8200,
+    "counts": {
+      "exact": 0,
+      "ipv4": 727,
+      "ipv6": 68,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:83c3c3a66b18864cd42831933ae60f6172aef238ef3a612866228c5871dcc594",
+    "entries": 795,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 870,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 20460,
+      "format": "classical",
+      "sha256": "5f42b4ed91226a51d4a8192f44ea6f49cf079a6cbb406e249d2a5509f07e9579"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geoip/classical/cloudflare.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

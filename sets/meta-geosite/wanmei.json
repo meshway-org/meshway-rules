@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 352,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 14
+    },
+    "digest": "sha256:9e07757e6f23157696fbb069a42c7160b2ed7eca1f179abd3a6b35a28d7b0423",
+    "entries": 14,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 14
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 352,
+      "format": "classical",
+      "sha256": "b171888812f6f7c4dd8507bdcc38459cfc2b7631911734714c7b9a054a3d09de"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/wanmei.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 264,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 5
+    },
+    "digest": "sha256:a14ba94e1742a9f9e1c0c05614b91fee272e1ac9aed94a23ea6499a54f13ba25",
+    "entries": 5,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 5
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 133,
+      "format": "classical",
+      "sha256": "db042e1fe9bb77f60a389c8c660e2dc35611760fa7bcece7dea6e86e5882da61"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/aamgame.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

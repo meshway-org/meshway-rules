@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1480,
+    "counts": {
+      "exact": 112,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:9ebf32254e5bcfcf7670a75ea6fd89bd343deb11cb780f56fa0606307d263d47",
+    "entries": 112,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 112,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3246,
+      "format": "classical",
+      "sha256": "8dc00735ff8db8e63d3e8375e2035a6cbe95d0ffd8a5938eb6b2653b00327d07"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/google-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

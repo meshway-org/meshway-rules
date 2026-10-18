@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 720,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 48
+    },
+    "digest": "sha256:32a93041befa59545c1734b372f6d787689189e2cc35b767bb57de87b63aca35",
+    "entries": 48,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 48
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1402,
+      "format": "classical",
+      "sha256": "1d951ae5724aef92f87e878bb335849e30329ca955088ae8eb53c17ad5f514b2"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/voanews.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
