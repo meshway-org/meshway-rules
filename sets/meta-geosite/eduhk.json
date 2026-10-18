@@ -1,0 +1,54 @@
+{
+  "conversion": {
+    "bytes": 288,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 6
+    },
+    "digest": "sha256:b2fbe8bf501102c2de11bfa7d7b0288d942ced897bad73bd1ca7cad68b003920",
+    "entries": 6,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 4",
+          "entry": "xn--wcvs22d1m.hk",
+          "reason": "invalidName"
+        },
+        {
+          "at": "line 5",
+          "entry": "xn--wcvs22d1m.xn--j6w193g",
+          "reason": "invalidName"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 6
+        },
+        "redundant": 0,
+        "unconverted": {
+          "invalidName": 2
+        }
+      }
+    },
+    "source": {
+      "bytes": 280,
+      "format": "classical",
+      "sha256": "f9c846a004418576147f388dbd66de21313ac21e22edea566cd52b9a78146563"
+    }
+  },
+  "upstream": {
+    "commit": "1852a7d214920d77c753293c49eb26a996e52081",
+    "path": "geo/geosite/classical/eduhk.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
