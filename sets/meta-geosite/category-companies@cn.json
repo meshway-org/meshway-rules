@@ -1,0 +1,64 @@
+{
+  "conversion": {
+    "bytes": 7832,
+    "counts": {
+      "exact": 504,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 333
+    },
+    "digest": "sha256:c140e68c03784490a9a4dd0664aa5d9694c014c0fcb8b0723d65e3d83bd240b6",
+    "entries": 837,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 140",
+          "entry": "DOMAIN-REGEX,^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 141",
+          "entry": "DOMAIN-REGEX,^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 310",
+          "entry": "DOMAIN-REGEX,.+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 311",
+          "entry": "DOMAIN-REGEX,.+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 504,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 333
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 4
+        }
+      }
+    },
+    "source": {
+      "bytes": 26541,
+      "format": "classical",
+      "sha256": "7b34db3303d16c8177d4de708fef39d9628163fe412a3857503e642ba16d443e"
+    }
+  },
+  "upstream": {
+    "commit": "7c782352439ce9ccaba53519ec816f82f52b6285",
+    "path": "geo/geosite/classical/category-companies@cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

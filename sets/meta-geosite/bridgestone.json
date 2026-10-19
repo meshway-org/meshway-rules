@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1136,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 98
+    },
+    "digest": "sha256:7cfb50f638faca7d41e044dd3c1b3c2ba2cd6aaf19fb55f5203813018b2c3194",
+    "entries": 98,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 98
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3314,
+      "format": "classical",
+      "sha256": "2d7b0bf142064033dae694f8fe75ba5a5e1c6bd00d1116f1f80d7bf588cf90f2"
+    }
+  },
+  "upstream": {
+    "commit": "7c782352439ce9ccaba53519ec816f82f52b6285",
+    "path": "geo/geosite/classical/bridgestone.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
