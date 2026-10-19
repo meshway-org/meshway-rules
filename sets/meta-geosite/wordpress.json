@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 304,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 10
+    },
+    "digest": "sha256:0248e966536d203dfccf731feb6b1365591cd58fce99bad45f83a80982d45687",
+    "entries": 10,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 10
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 259,
+      "format": "classical",
+      "sha256": "c20b7c92996c323d94cbdcd710563fd99ed8b82c6e4a7e4295612082c3bbd1f4"
+    }
+  },
+  "upstream": {
+    "commit": "7c782352439ce9ccaba53519ec816f82f52b6285",
+    "path": "geo/geosite/classical/wordpress.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1120,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 86
+    },
+    "digest": "sha256:8adc18cecd98160e197bfaf83c57c26e77718a964813506b4324f6a03b7fa0a1",
+    "entries": 86,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 86
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2443,
+      "format": "classical",
+      "sha256": "6a1d4fd89224230f743a435324214fac443c18093cc2abd4ea402aea2514c22e"
+    }
+  },
+  "upstream": {
+    "commit": "7c782352439ce9ccaba53519ec816f82f52b6285",
+    "path": "geo/geosite/classical/tencent-games.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

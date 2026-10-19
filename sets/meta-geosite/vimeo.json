@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 328,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 16
+    },
+    "digest": "sha256:b65f1b0b8f3dbc40b861df449c210482e6fd830836a86745a7284283cacf8f8d",
+    "entries": 16,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 17",
+          "entry": "DOMAIN-REGEX,^[0-9]+vod-adaptive\\.akamaized\\.net$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 16
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 486,
+      "format": "classical",
+      "sha256": "3402985e103cad95acc6d51191c3becd73582f05eb834465217ffc651ba3b4da"
+    }
+  },
+  "upstream": {
+    "commit": "7c782352439ce9ccaba53519ec816f82f52b6285",
+    "path": "geo/geosite/classical/vimeo.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

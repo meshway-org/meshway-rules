@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 672,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 49
+    },
+    "digest": "sha256:efd9e2d8822cc61d0e80d660d25db0632d9609e3fb5675fd6ca4af7b59ab15f1",
+    "entries": 49,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 49
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1334,
+      "format": "classical",
+      "sha256": "c2b068407d2ca40e209a47633d4af0c48662f0b46a4a7452771a70e202b62c66"
+    }
+  },
+  "upstream": {
+    "commit": "7c782352439ce9ccaba53519ec816f82f52b6285",
+    "path": "geo/geosite/classical/naver.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

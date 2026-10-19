@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 408,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 40
+    },
+    "digest": "sha256:9618ef5ca462f5b32d63a21f3fd4fb2e456dce72590090f399d80afe91f0b1cf",
+    "entries": 40,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 40
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1038,
+      "format": "classical",
+      "sha256": "3e1e2bf1a7bed192e91ce2b5fa2c160ed34754c25c1f81df00db86f6aaad6e6d"
+    }
+  },
+  "upstream": {
+    "commit": "7c782352439ce9ccaba53519ec816f82f52b6285",
+    "path": "geo/geosite/classical/airwick.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

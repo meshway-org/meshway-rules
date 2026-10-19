@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 968,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 93
+    },
+    "digest": "sha256:7c7482ff757e4d1b4eb8e764a2317c4f4b1247722caadcaeb9d03613877e5829",
+    "entries": 93,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 93
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2451,
+      "format": "classical",
+      "sha256": "7074c3ede68225ddbe3fc29988b3792d4853df861e7cdb813c4394cfdd8c6704"
+    }
+  },
+  "upstream": {
+    "commit": "7c782352439ce9ccaba53519ec816f82f52b6285",
+    "path": "geo/geosite/classical/category-cdn-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

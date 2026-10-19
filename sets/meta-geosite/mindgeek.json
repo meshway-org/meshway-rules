@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 672,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 47
+    },
+    "digest": "sha256:776f6df4337c36c86bc1a11996a42411fa216d2e6e7e8732b1ef24c5a87214ff",
+    "entries": 47,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 47
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1304,
+      "format": "classical",
+      "sha256": "bd5bac29b7b54593be4fb2389f75ccb07e7998447f1b0aa8ef5156396e9f626e"
+    }
+  },
+  "upstream": {
+    "commit": "7c782352439ce9ccaba53519ec816f82f52b6285",
+    "path": "geo/geosite/classical/mindgeek.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

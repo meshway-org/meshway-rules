@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 760,
+    "counts": {
+      "exact": 13,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 33
+    },
+    "digest": "sha256:c10faeb48b48bd7eeed97d89ef6072de11d7e7abd12a67bb7708602861c95b56",
+    "entries": 46,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 13,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 33
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1613,
+      "format": "classical",
+      "sha256": "5d0bdd30ba80c9ac3feb2b7963a0704026d90ed7a4e2253ab7f283805ce17766"
+    }
+  },
+  "upstream": {
+    "commit": "7c782352439ce9ccaba53519ec816f82f52b6285",
+    "path": "geo/geosite/classical/google-deepmind.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
