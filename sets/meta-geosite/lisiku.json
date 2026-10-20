@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 232,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 2
+    },
+    "digest": "sha256:ec6d57b2b123c22eb71da62c951eaf65e8bb380d875047414fec2e8c1e52691c",
+    "entries": 2,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 2
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 50,
+      "format": "classical",
+      "sha256": "1572d63201dd5ef2186478dc0a0dda34896a5af7ae3a81de13a57c59c78cdd13"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/lisiku.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

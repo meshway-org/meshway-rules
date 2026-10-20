@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 248,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 2
+    },
+    "digest": "sha256:dcb7190240fc065bf61c5e9758107f2ff2402bdae628cb8e57ee290a57d1134a",
+    "entries": 2,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 2
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 63,
+      "format": "classical",
+      "sha256": "9638efe99fca01c2d0359d49fb0db0659369e1c3a473e6e36ff3cdb1e8fac6c7"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/openspeedtest.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

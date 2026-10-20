@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 560,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 95
+    },
+    "digest": "sha256:f14fa1316166cb040c0d2aaa41144fffc5d2dd840769e254ffcf591f94f82798",
+    "entries": 95,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 95
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2254,
+      "format": "classical",
+      "sha256": "7f2dd49929b8997bbc0a8bd9689d429bcdf57c0412938d2b9556ecd82f61ebeb"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/ikea.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 1056,
+    "counts": {
+      "exact": 2,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 75
+    },
+    "digest": "sha256:25d90be871b18e1872e82b8b8daceac1f24477203828c6d684ec06680eb7444d",
+    "entries": 77,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 78",
+          "entry": "DOMAIN-REGEX,^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 75
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 2435,
+      "format": "classical",
+      "sha256": "19b56c1da6fa39243ebdca4676134cf0687e0d2db5c20bd3bed55aec49828097"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/category-speedtest.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2472,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 279
+    },
+    "digest": "sha256:a54eb4824f425d796777438cf9578fe015d2c1581f908f646bf87b73a50dd514",
+    "entries": 279,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 279
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 8060,
+      "format": "classical",
+      "sha256": "4d82559dffa1a9f7c828d83e69ec3a664c4e7b0eddcb1d2713c944cefc658c78"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/volcengine.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

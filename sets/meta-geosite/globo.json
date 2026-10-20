@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 512,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 40
+    },
+    "digest": "sha256:24f21019c2104217a622dfcd8de97a1c3364b4771a4516e86d0f21d445edaff2",
+    "entries": 40,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 40
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1191,
+      "format": "classical",
+      "sha256": "04e4222965e6862b1325e6fe4cfc306ebda6b02f5d5c00f84b0e873a01095536"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/globo.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

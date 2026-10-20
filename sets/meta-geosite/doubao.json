@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 528,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 32
+    },
+    "digest": "sha256:5c2b1eff78c9e275ecdf87adaf145ea1ffd5d8b3d5e8b031fdeb97037166b74e",
+    "entries": 32,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 32
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 890,
+      "format": "classical",
+      "sha256": "fa042cf7e204da2d86256d0dfb029faafe0c10afa38708a4edda329f59e59300"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/doubao.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

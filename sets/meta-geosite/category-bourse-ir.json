@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 704,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 48
+    },
+    "digest": "sha256:002f721d6fc15b00d3835e6371c0720e7632edea881a41e7fa003575ec019993",
+    "entries": 48,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 48
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1302,
+      "format": "classical",
+      "sha256": "49efcb4c83d6ba7822e1303961204e641214a15226cd3816b9608003f05fcd40"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/category-bourse-ir.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

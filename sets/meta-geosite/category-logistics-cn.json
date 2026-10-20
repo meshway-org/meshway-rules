@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1544,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 157
+    },
+    "digest": "sha256:320a168fc07758d5e49c9a827e1a6ae613aab536f49c658c1d9c62b15b0ea31a",
+    "entries": 157,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 158
+        },
+        "redundant": 1,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 4251,
+      "format": "classical",
+      "sha256": "9f92c3135263a7b5510b94845134b3105d46356c1a81da0ef96c5f3281172fbe"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/category-logistics-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

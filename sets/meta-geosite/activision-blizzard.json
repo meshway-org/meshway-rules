@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 952,
+    "counts": {
+      "exact": 9,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 43
+    },
+    "digest": "sha256:e925082270788f889753c595c749f60326258bb3a17cb5ef3dbfed771335af77",
+    "entries": 52,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 9,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 43
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1669,
+      "format": "classical",
+      "sha256": "597e48dcd8df8787d70809be31eacd8596f72bc745acfe90821a54d4687578a1"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/activision-blizzard.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

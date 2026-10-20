@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 680,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 50
+    },
+    "digest": "sha256:a601ae2fd88f8a693813292cc92dec840e4a2558c43d4ec78423aa819755c5d8",
+    "entries": 50,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 50
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1578,
+      "format": "classical",
+      "sha256": "b8fac3f274a99bc02710d05d15e5aa9658c1d3b870ccbbd463017a0bafd6cf3b"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/baidu@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

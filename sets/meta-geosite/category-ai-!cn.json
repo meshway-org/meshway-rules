@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 2560,
+    "counts": {
+      "exact": 30,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 163
+    },
+    "digest": "sha256:d7b6fe6d2f8a0284ac02d85b39e98a7306619080ad2dd98d16a31f3696b05da0",
+    "entries": 193,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 182",
+          "entry": "DOMAIN-REGEX,^chatgpt-async-webps-prod-\\S+-\\d+\\.webpubsub\\.azure\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 30,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 163
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 5922,
+      "format": "classical",
+      "sha256": "bf23f018ddaa7e55105f675a7886ffe0671e11d2a69dd4a1f99b06d791516bd2"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/category-ai-!cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

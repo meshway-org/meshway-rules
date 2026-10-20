@@ -1,0 +1,64 @@
+{
+  "conversion": {
+    "bytes": 376,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 23
+    },
+    "digest": "sha256:457596eb98f27888779b1ddfcb9290bdd83a5f9a489bdb706106f92ae465d8ab",
+    "entries": 24,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 25",
+          "entry": "DOMAIN-REGEX,(^|\\.)apiproxy-device-prod-nlb-.+\\.amazonaws\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 26",
+          "entry": "DOMAIN-REGEX,(^|\\.)apiproxy-website-nlb-prod-.+\\.amazonaws\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 27",
+          "entry": "DOMAIN-REGEX,(^|\\.)dualstack\\.apiproxy-.+\\.amazonaws\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 28",
+          "entry": "DOMAIN-REGEX,(^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 23
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 4
+        }
+      }
+    },
+    "source": {
+      "bytes": 985,
+      "format": "classical",
+      "sha256": "5d64af1c1a3f9f0edaf35aca1828c2aba7b33345e1d7ddfaa685bf30303b1b40"
+    }
+  },
+  "upstream": {
+    "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+    "path": "geo/geosite/classical/netflix.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
