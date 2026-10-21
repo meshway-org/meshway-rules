@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 504,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 21
+    },
+    "digest": "sha256:8526e86f9b92b8afadee5da71873d730a841062ceab66a76142246e829acfb76",
+    "entries": 21,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 21
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 677,
+      "format": "classical",
+      "sha256": "111a6d0c00ff698447b9d9539adc9de39fa7a9781acf262c4746ad5ea51eb9f3"
+    }
+  },
+  "upstream": {
+    "commit": "ca85be6b1ebf086ec2f6d6885e8b4eba959bede1",
+    "path": "geo/geosite/classical/activision.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

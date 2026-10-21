@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 968,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 88
+    },
+    "digest": "sha256:29fb6374821a755cb032a954c6b83d9692e294d5ba7b65a44200ef05a3d4c6c4",
+    "entries": 88,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 88
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2647,
+      "format": "classical",
+      "sha256": "2ced27d996b7ae57d0283292219bac184424c007d522a921421c2871e709cae0"
+    }
+  },
+  "upstream": {
+    "commit": "ca85be6b1ebf086ec2f6d6885e8b4eba959bede1",
+    "path": "geo/geosite/classical/lark.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

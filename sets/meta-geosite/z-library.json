@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 616,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 48
+    },
+    "digest": "sha256:df95b813cba7f8f82972751ee3d2de9d256a28b549327d749110d5cb766703bf",
+    "entries": 48,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 48
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1236,
+      "format": "classical",
+      "sha256": "cd976a0f8340792f2f84e5a8b7a456251884a42e27dd72fb71ce74510b4be81d"
+    }
+  },
+  "upstream": {
+    "commit": "ca85be6b1ebf086ec2f6d6885e8b4eba959bede1",
+    "path": "geo/geosite/classical/z-library.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

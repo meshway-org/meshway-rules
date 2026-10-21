@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 816,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 65
+    },
+    "digest": "sha256:36fc535e3d25a30997b42044e66f6d663ff9fe902d6542e5f90d9ffed2601e0a",
+    "entries": 65,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 65
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1737,
+      "format": "classical",
+      "sha256": "3cbd25bb79ead6650d405c5446a99ed9ad75f4410afdc92b700383c1c72ce8ca"
+    }
+  },
+  "upstream": {
+    "commit": "ca85be6b1ebf086ec2f6d6885e8b4eba959bede1",
+    "path": "geo/geosite/classical/hbo.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

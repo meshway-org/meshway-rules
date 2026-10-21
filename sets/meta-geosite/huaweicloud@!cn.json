@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 664,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 44
+    },
+    "digest": "sha256:476eb3c85202876bd315d8e6fe017eaf1b3cd2fdaa7478db28800ecbec5063f3",
+    "entries": 44,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 44
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1953,
+      "format": "classical",
+      "sha256": "18b7def3e103b970437be895bc4b29c79734216bccd984d17afd696cf312b4b6"
+    }
+  },
+  "upstream": {
+    "commit": "ca85be6b1ebf086ec2f6d6885e8b4eba959bede1",
+    "path": "geo/geosite/classical/huaweicloud@!cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

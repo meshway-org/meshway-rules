@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 248,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 4
+    },
+    "digest": "sha256:0dc7de56786e4e6f848e5b0ff93e721e22427be567947988ffba82d004dc44be",
+    "entries": 4,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 5",
+          "entry": "DOMAIN-REGEX,javdb\\d+\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 4
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 127,
+      "format": "classical",
+      "sha256": "1e850acacd048952451dfbe182ff517ba7f85a91f400706e2b77a5f4df2115eb"
+    }
+  },
+  "upstream": {
+    "commit": "ca85be6b1ebf086ec2f6d6885e8b4eba959bede1",
+    "path": "geo/geosite/classical/javdb.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

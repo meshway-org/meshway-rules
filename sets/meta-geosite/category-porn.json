@@ -1,0 +1,744 @@
+{
+  "conversion": {
+    "bytes": 57528,
+    "counts": {
+      "exact": 3,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 6514
+    },
+    "digest": "sha256:e1c9d378212387896c1d731c2bd4ffb2b3443f4ed7444206119bfb7bcdc4f6a6",
+    "entries": 6517,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 6518",
+          "entry": "DOMAIN-REGEX,(^|\\.)[1-5]gaoap\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6519",
+          "entry": "DOMAIN-REGEX,(^|\\.)[1-9]+aipai\\.(com|net)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6520",
+          "entry": "DOMAIN-REGEX,(^|\\.)[1-9]+zipai\\.(com|net)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6521",
+          "entry": "DOMAIN-REGEX,(^|\\.)[1-9]00caocao\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6522",
+          "entry": "DOMAIN-REGEX,(^|\\.)[3-9]0000sao\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6523",
+          "entry": "DOMAIN-REGEX,(^|\\.)[a-z][1-9][0-9][a-z]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6524",
+          "entry": "DOMAIN-REGEX,(^|\\.)[a-z]?fulibl\\.(cc|com|org|net|xyz)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6525",
+          "entry": "DOMAIN-REGEX,(^|\\.)1[0-9]{2}\\.one$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6526",
+          "entry": "DOMAIN-REGEX,(^|\\.)13mei[5-7]\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6527",
+          "entry": "DOMAIN-REGEX,(^|\\.)18j[efg]\\.life$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6528",
+          "entry": "DOMAIN-REGEX,(^|\\.)18jmttios[0-9]{2}\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6529",
+          "entry": "DOMAIN-REGEX,(^|\\.)18tv[1-5]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6530",
+          "entry": "DOMAIN-REGEX,(^|\\.)2024(3[0-9]|4[0-9]|6[0-9]|7[0-9])\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6531",
+          "entry": "DOMAIN-REGEX,(^|\\.)3[0-9]{2}\\.icu$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6532",
+          "entry": "DOMAIN-REGEX,(^|\\.)3[0-9]{2}\\.one$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6533",
+          "entry": "DOMAIN-REGEX,(^|\\.)69bag[0-1][1-9]?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6534",
+          "entry": "DOMAIN-REGEX,(^|\\.)783([a-z][a-z]?)?\\.tv$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6535",
+          "entry": "DOMAIN-REGEX,(^|\\.)7mm0([0-1][0-9]?)?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6536",
+          "entry": "DOMAIN-REGEX,(^|\\.)8dgo[1-57-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6537",
+          "entry": "DOMAIN-REGEX,(^|\\.)91cg([1-9]|[0-9][1-9])?.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6538",
+          "entry": "DOMAIN-REGEX,(^|\\.)91p[0-9][0-9]?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6539",
+          "entry": "DOMAIN-REGEX,(^|\\.)91porn\\.(best|com|cool|fun|group|party|plus|site|tw|work)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6540",
+          "entry": "DOMAIN-REGEX,(^|\\.)91porn[0-9]{3}\\.me$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6541",
+          "entry": "DOMAIN-REGEX,(^|\\.)91porn[0-9]?\\.store$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6542",
+          "entry": "DOMAIN-REGEX,(^|\\.)91porna[1-7]?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6543",
+          "entry": "DOMAIN-REGEX,(^|\\.)91porn[fvxy]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6544",
+          "entry": "DOMAIN-REGEX,(^|\\.)91sew1[1-6]\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6545",
+          "entry": "DOMAIN-REGEX,(^|\\.)91wang[1-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6546",
+          "entry": "DOMAIN-REGEX,(^|\\.)989[a-z]?\\.tv$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6547",
+          "entry": "DOMAIN-REGEX,(^|\\.)99pp[1-9][0-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6548",
+          "entry": "DOMAIN-REGEX,(^|\\.)9cha[0-9]{2}\\.cc$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6549",
+          "entry": "DOMAIN-REGEX,(^|\\.)aipa(111|222|333|444|555|666|777|888|999)\\.life$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6550",
+          "entry": "DOMAIN-REGEX,(^|\\.)aisejushi(2|3|5|6)\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6551",
+          "entry": "DOMAIN-REGEX,(^|\\.)aiwei[1-9]{2}\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6552",
+          "entry": "DOMAIN-REGEX,(^|\\.)aqdk[0-9]{3}\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6553",
+          "entry": "DOMAIN-REGEX,(^|\\.)avcc1[0-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6554",
+          "entry": "DOMAIN-REGEX,(^|\\.)avstar0[1-9]\\.(com|me)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6555",
+          "entry": "DOMAIN-REGEX,(^|\\.)awjd[1-9]?\\.tv$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6556",
+          "entry": "DOMAIN-REGEX,(^|\\.)awwcn[1-9]?\\.top$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6557",
+          "entry": "DOMAIN-REGEX,(^|\\.)banyinjia[0-9]?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6558",
+          "entry": "DOMAIN-REGEX,(^|\\.)bhzyk[1-9]?\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6559",
+          "entry": "DOMAIN-REGEX,(^|\\.)bibeidh1[6-8]\\.cc$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6560",
+          "entry": "DOMAIN-REGEX,(^|\\.)bjini[0-9]{2}\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6561",
+          "entry": "DOMAIN-REGEX,(^|\\.)byy[0-9][0-9]?\\.icu$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6562",
+          "entry": "DOMAIN-REGEX,(^|\\.)byyum([3589]|2[235689]|3[34]|4[1-9]|5[1-79]|6[0134679])?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6563",
+          "entry": "DOMAIN-REGEX,(^|\\.)cgbb([1-9]|1[0-9]|20)\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6564",
+          "entry": "DOMAIN-REGEX,(^|\\.)chuzs[1-9]{0,2}\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6565",
+          "entry": "DOMAIN-REGEX,(^|\\.)cosaa[a-z]\\.cyou$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6566",
+          "entry": "DOMAIN-REGEX,(^|\\.)douyintt[0-9]\\.me$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6567",
+          "entry": "DOMAIN-REGEX,(^|\\.)doufuru[0-9]?\\.cc$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6568",
+          "entry": "DOMAIN-REGEX,(^|\\.)doufuru[0-9]{2}?\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6569",
+          "entry": "DOMAIN-REGEX,(^|\\.)fby[1-9]?[0-9]\\.icu$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6570",
+          "entry": "DOMAIN-REGEX,(^|\\.)fby[1-9]?[0-9]\\.one$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6571",
+          "entry": "DOMAIN-REGEX,(^|\\.)fi11sm([0-9]+)?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6572",
+          "entry": "DOMAIN-REGEX,(^|\\.)fiftymvapi\\..+$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6573",
+          "entry": "DOMAIN-REGEX,(^|\\.)flsq[0-9]{2}\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6574",
+          "entry": "DOMAIN-REGEX,(^|\\.)forduck[0-1][0-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6575",
+          "entry": "DOMAIN-REGEX,(^|\\.)gaogediao\\.(com|me|net|org)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6576",
+          "entry": "DOMAIN-REGEX,(^|\\.)gossipfuli[0-9]{3,4}\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6577",
+          "entry": "DOMAIN-REGEX,(^|\\.)guifw3[1-3]\\.cc$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6578",
+          "entry": "DOMAIN-REGEX,(^|\\.)h5ccav[1-5]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6579",
+          "entry": "DOMAIN-REGEX,(^|\\.)hhmen[1-3]\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6580",
+          "entry": "DOMAIN-REGEX,(^|\\.)hkfg[1-7]\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6581",
+          "entry": "DOMAIN-REGEX,(^|\\.)hs[1-9]{2}\\.vip$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6582",
+          "entry": "DOMAIN-REGEX,(^|\\.)jav777\\.(cc|tv|work)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6583",
+          "entry": "DOMAIN-REGEX,(^|\\.)jb[1-9][0-9]\\.lol$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6584",
+          "entry": "DOMAIN-REGEX,(^|\\.)jbk0([0-1][0-9]?)?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6585",
+          "entry": "DOMAIN-REGEX,(^|\\.)jdyy[1-9]?\\.me$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6586",
+          "entry": "DOMAIN-REGEX,(^|\\.)jiuse[0-9]{1,3}\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6587",
+          "entry": "DOMAIN-REGEX,(^|\\.)jmtt\\.(app|live|tv|vip)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6588",
+          "entry": "DOMAIN-REGEX,(^|\\.)jstv[0-9]{2}\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6589",
+          "entry": "DOMAIN-REGEX,(^|\\.)kdfl[0-9]{2}\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6590",
+          "entry": "DOMAIN-REGEX,(^|\\.)kimoav([1-9][0-9]?)?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6591",
+          "entry": "DOMAIN-REGEX,(^|\\.)kpkuang\\.(bond|fun|info|one|us)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6592",
+          "entry": "DOMAIN-REGEX,(^|\\.)ksyp0[1-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6593",
+          "entry": "DOMAIN-REGEX,(^|\\.)lianren[1-7]\\.cc$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6594",
+          "entry": "DOMAIN-REGEX,(^|\\.)llyysp[0-9]{4}\\.top$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6595",
+          "entry": "DOMAIN-REGEX,(^|\\.)loibus\\.(cc|com|link)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6596",
+          "entry": "DOMAIN-REGEX,(^|\\.)loibus(100|101|202|505|606)\\.top$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6597",
+          "entry": "DOMAIN-REGEX,(^|\\.)luchuxue([0-9]{0,5})\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6598",
+          "entry": "DOMAIN-REGEX,(^|\\.)maa18[0-2][0-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6599",
+          "entry": "DOMAIN-REGEX,(^|\\.)madouqu[0-9]{2}\\.cc$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6600",
+          "entry": "DOMAIN-REGEX,(^|\\.)mdyy[0-9][0-9]\\.cc$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6601",
+          "entry": "DOMAIN-REGEX,(^|\\.)mdyy[0-1][0-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6602",
+          "entry": "DOMAIN-REGEX,(^|\\.)mimi\\.(cfd|lol|onl|sbs|so|vc)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6603",
+          "entry": "DOMAIN-REGEX,(^|\\.)mimi[0-9]{3}\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6604",
+          "entry": "DOMAIN-REGEX,(^|\\.)mitao[1-3]\\.tv$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6605",
+          "entry": "DOMAIN-REGEX,(^|\\.)mmtv[1-5]\\.life$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6606",
+          "entry": "DOMAIN-REGEX,(^|\\.)mmwz\\.(fun|in|la|me|one|pro|pw|run|tv|ws)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6607",
+          "entry": "DOMAIN-REGEX,(^|\\.)momotk([1-9][0-9]?)?\\.uno$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6608",
+          "entry": "DOMAIN-REGEX,(^|\\.)nnbw[0-2]\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6609",
+          "entry": "DOMAIN-REGEX,(^|\\.)putaozy([1-9][0-9]?)?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6610",
+          "entry": "DOMAIN-REGEX,(^|\\.)qqbs([0-9]{2})?\\.vip$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6611",
+          "entry": "DOMAIN-REGEX,(^|\\.)qqsp0[1-3]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6612",
+          "entry": "DOMAIN-REGEX,(^|\\.)rbp[1-9][0-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6613",
+          "entry": "DOMAIN-REGEX,(^|\\.)rbyh[1-9]\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6614",
+          "entry": "DOMAIN-REGEX,(^|\\.)rule34\\.(asia|us|world|xxx|xyz)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6615",
+          "entry": "DOMAIN-REGEX,(^|\\.)sao[1-6]0000\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6616",
+          "entry": "DOMAIN-REGEX,(^|\\.)sbyjs2[6-9]\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6617",
+          "entry": "DOMAIN-REGEX,(^|\\.)sg11[3-9]\\.me$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6618",
+          "entry": "DOMAIN-REGEX,(^|\\.)shdd[0-9]{2}\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6619",
+          "entry": "DOMAIN-REGEX,(^|\\.)shuangmawei[0-9]{2}\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6620",
+          "entry": "DOMAIN-REGEX,(^|\\.)smgsp[0-2]?\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6621",
+          "entry": "DOMAIN-REGEX,(^|\\.)spankwire[1-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6622",
+          "entry": "DOMAIN-REGEX,(^|\\.)ssphb[0-9]{2}\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6623",
+          "entry": "DOMAIN-REGEX,(^|\\.)supxxx[0-9]{0,2}\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6624",
+          "entry": "DOMAIN-REGEX,(^|\\.)sycf[0-9]?\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6625",
+          "entry": "DOMAIN-REGEX,(^|\\.)syjc1[1-6]\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6626",
+          "entry": "DOMAIN-REGEX,(^|\\.)tianbiav([1-9]|1[0-6])?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6627",
+          "entry": "DOMAIN-REGEX,(^|\\.)tqav[1-9][0-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6628",
+          "entry": "DOMAIN-REGEX,(^|\\.)tt[1-2][0-9]\\.tv$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6629",
+          "entry": "DOMAIN-REGEX,(^|\\.)ttghg[1-9][0-9]\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6630",
+          "entry": "DOMAIN-REGEX,(^|\\.)tttv([1-9][0-9]?|100)\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6631",
+          "entry": "DOMAIN-REGEX,(^|\\.)twav[1-9]\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6632",
+          "entry": "DOMAIN-REGEX,(^|\\.)twseb([1-9][0-9]?)?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6633",
+          "entry": "DOMAIN-REGEX,(^|\\.)uu[a-z][1-9][0-9]?\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6634",
+          "entry": "DOMAIN-REGEX,(^|\\.)whtdh0[1-3]\\.cc$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6635",
+          "entry": "DOMAIN-REGEX,(^|\\.)wmm33[0-5]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6636",
+          "entry": "DOMAIN-REGEX,(^|\\.)wyfuli[1-9]\\.net$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6637",
+          "entry": "DOMAIN-REGEX,(^|\\.)xaa[0-9]?\\.one$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6638",
+          "entry": "DOMAIN-REGEX,(^|\\.)xaxy[0-9]{2}\\.one$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6639",
+          "entry": "DOMAIN-REGEX,(^|\\.)xg[0-9]{2}\\.vip$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6640",
+          "entry": "DOMAIN-REGEX,(^|\\.)xgyy([0-9]{2})?\\.vip$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6641",
+          "entry": "DOMAIN-REGEX,(^|\\.)xingdh([0-9]{3})?\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6642",
+          "entry": "DOMAIN-REGEX,(^|\\.)xlywz[1-9]?\\.cc$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6643",
+          "entry": "DOMAIN-REGEX,(^|\\.)xomfsp[1-9]?\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6644",
+          "entry": "DOMAIN-REGEX,(^|\\.)xv[0-9]{4}\\.top$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6645",
+          "entry": "DOMAIN-REGEX,(^|\\.)xxxyaom[0-9]{2}\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6646",
+          "entry": "DOMAIN-REGEX,(^|\\.)yiren[1-9][0-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6647",
+          "entry": "DOMAIN-REGEX,(^|\\.)youyuapi\\..+$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6648",
+          "entry": "DOMAIN-REGEX,(^|\\.)yrrj[1-9]?\\.buzz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6649",
+          "entry": "DOMAIN-REGEX,(^|\\.)yygc[0-9]?\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6650",
+          "entry": "DOMAIN-REGEX,(^|\\.)zayy([0-9]{0,3})?\\.xyz$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6651",
+          "entry": "DOMAIN-REGEX,(^|\\.)zh9[0-7]\\.net$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6652",
+          "entry": "DOMAIN-REGEX,(^|\\.)zy[0-9]{4}\\.top$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6653",
+          "entry": "DOMAIN-REGEX,(^|\\.)zztt[1-6][0-9]\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6654",
+          "entry": "DOMAIN-REGEX,(^|\\.)zzz[1-9][0-9]\\.top$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6655",
+          "entry": "DOMAIN-REGEX,(^|\\.)cav1(0[2-9]|1[0-9])\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6656",
+          "entry": "DOMAIN-REGEX,javdb\\d+\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 6657",
+          "entry": "DOMAIN-REGEX,(^|\\.)bilibili3(0[1-9]|1[0-2])\\.xyz$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 5,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 6515
+        },
+        "redundant": 3,
+        "unconverted": {
+          "regex": 140
+        }
+      }
+    },
+    "source": {
+      "bytes": 191185,
+      "format": "classical",
+      "sha256": "35699e33b1713e88aaf33ba532f801fc278d96cc1caceb9dc5a2b6d4f472c5c6"
+    }
+  },
+  "upstream": {
+    "commit": "ca85be6b1ebf086ec2f6d6885e8b4eba959bede1",
+    "path": "geo/geosite/classical/category-porn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

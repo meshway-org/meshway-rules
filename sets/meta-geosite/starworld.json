@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 448,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 25
+    },
+    "digest": "sha256:4cdab0991358e65d3fcb05f9fc647c921dd35c77f74e911ee11da0de47a24649",
+    "entries": 25,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 25
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 659,
+      "format": "classical",
+      "sha256": "163a87a968e3d386912ed60cd6a562dc737c7171c0249d08f491850aa59fc258"
+    }
+  },
+  "upstream": {
+    "commit": "ca85be6b1ebf086ec2f6d6885e8b4eba959bede1",
+    "path": "geo/geosite/classical/starworld.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1440,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 111
+    },
+    "digest": "sha256:a0eb94e1a1652d3e674460a1ae8a56c5b8ef1f3f6434e2867749dc8b8fe58466",
+    "entries": 111,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 111
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3100,
+      "format": "classical",
+      "sha256": "1592eb195960f8e87acb2df6b4040fc41b822e07c45456832421eba5e70f8c4e"
+    }
+  },
+  "upstream": {
+    "commit": "ca85be6b1ebf086ec2f6d6885e8b4eba959bede1",
+    "path": "geo/geosite/classical/category-ddns.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
