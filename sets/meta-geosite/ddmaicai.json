@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 296,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 9
+    },
+    "digest": "sha256:5019a135d1211c0f9744df5bd01d66b278ac1ab69f1a7a11e58d486942a68a79",
+    "entries": 9,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 9
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 224,
+      "format": "classical",
+      "sha256": "bb27eaff7cc5024fefb46d3a8e813eef9f09c3b71ec359f25d72ea1c899b88b8"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/ddmaicai.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

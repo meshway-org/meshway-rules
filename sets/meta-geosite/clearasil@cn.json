@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 232,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 2
+    },
+    "digest": "sha256:9fd900062f8ebf51dec4886e0cdadd38194b5998670e41abce5fd80c59dcb30a",
+    "entries": 2,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 2
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 57,
+      "format": "classical",
+      "sha256": "077a033196afaf0e17311824fae59d0d18e14276a13a5186a9d967d870c6889d"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/clearasil@cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

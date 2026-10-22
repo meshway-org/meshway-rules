@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 344,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 12
+    },
+    "digest": "sha256:0282f3a65d4f286e02014258748978e3a36c28ae17984ac5670640f0cec45c7c",
+    "entries": 12,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 12
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 327,
+      "format": "classical",
+      "sha256": "e0e6dc402676095bbe9b5ac94b4dc54b8fe5b38b18a6bfc550200f96a999c4b3"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/xiaohongshu.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

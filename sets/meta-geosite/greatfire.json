@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 360,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 11
+    },
+    "digest": "sha256:4ff0f67092ad4ee62b7ef703518e5dabb2437ef7081c070ccc618670bb80aeb1",
+    "entries": 11,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 11
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 339,
+      "format": "classical",
+      "sha256": "ac4bbcc6cfeb046892299b24fe28e0563d60f64fc2fce686e0273dd723c26369"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/greatfire.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

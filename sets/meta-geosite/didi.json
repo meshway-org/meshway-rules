@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 360,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 12
+    },
+    "digest": "sha256:bb30360a37a85eee2ad59c83e4c515c150d19c7fad9ac20fe28e1ed02052b26f",
+    "entries": 12,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 12
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 345,
+      "format": "classical",
+      "sha256": "131ceaca23a4dd80988fb7b6bd936196d88eed3a962f772d8e25a349c4f5aef7"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/didi.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

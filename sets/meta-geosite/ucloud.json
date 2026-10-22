@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 568,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 54
+    },
+    "digest": "sha256:287ddae80d17a4164b0f972f4b74cab25d9d2ae91aaa567f0cd797d8da02b1f7",
+    "entries": 54,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 54
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1418,
+      "format": "classical",
+      "sha256": "8b542c305b2a7b35273cec887c8e51c1e76449bd688c18c53ae09050e8025e05"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/ucloud.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

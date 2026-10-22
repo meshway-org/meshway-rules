@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 728,
+    "counts": {
+      "exact": 18,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 34
+    },
+    "digest": "sha256:59929cd76868dd76d8a9a2bec03da70375151e421ffbee1c04dddbc506ec4a9f",
+    "entries": 52,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 18,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 34
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1645,
+      "format": "classical",
+      "sha256": "acfb13b32fe787c74f6b928d0c277f87b6dc16d03f71a12a8d0eb3b608c9a843"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/category-entertainment-cn@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 440,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 17
+    },
+    "digest": "sha256:6eaa1ad2d063572826152fde86338debf844568df19e0043aa0413d9a68ac9ec",
+    "entries": 17,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 17
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 486,
+      "format": "classical",
+      "sha256": "d76fcf0216adb82c58faa14197d6986c1d4097c51e4612f0e27597fb3ec70a84"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/rossiyasegodnya.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 336,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 16
+    },
+    "digest": "sha256:abab980a508234a3e2af9dbb6a922b57f619486512a138b5535b4bb0ac8737bf",
+    "entries": 16,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 32
+        },
+        "redundant": 16,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 852,
+      "format": "classical",
+      "sha256": "98ae7c27ea463a27feaa5501d24bbc8f450ce08f755ebbbaa4dbdf8964ff3bee"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/sohu.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

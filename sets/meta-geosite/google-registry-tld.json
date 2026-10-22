@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 352,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 20
+    },
+    "digest": "sha256:a4d9799fd217154e7f55e3c219b9ea7963178fd6da3c1224f9b552dedf7dce0a",
+    "entries": 20,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 20
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 373,
+      "format": "classical",
+      "sha256": "e99e284e438b3526e82ff2e4776e339ea82a4c1a7311714434557230f8a24dba"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/google-registry-tld.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 552,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 33
+    },
+    "digest": "sha256:91e27c460f097998c3470357b88403f1dd30f5a106e408cccf67325b58213536",
+    "entries": 33,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 33
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 902,
+      "format": "classical",
+      "sha256": "0008d191e45fa6736f6c1fe1e02984f76aa03ba8b25db1630851da84fdb8eda5"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/anexia.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

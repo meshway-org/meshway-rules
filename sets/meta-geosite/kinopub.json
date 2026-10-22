@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 416,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 17
+    },
+    "digest": "sha256:362086eba64f7dfaf38247994f24e15b07828c8b9b5d4f9c8647fab094191589",
+    "entries": 17,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 18",
+          "entry": "DOMAIN-REGEX,(\\w+)-static-[0-9]+\\.cdntogo\\.net$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 17
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 499,
+      "format": "classical",
+      "sha256": "2a09d1958971633803dd8e42ace02812dc64cdeb28fc6a25e359744bf3b205c9"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/kinopub.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

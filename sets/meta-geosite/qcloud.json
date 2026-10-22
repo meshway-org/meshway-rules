@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2632,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 287
+    },
+    "digest": "sha256:244a863408e070cd9fa1789906c4453fda3cba998244ab611fbcbf2f03b933c3",
+    "entries": 287,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 347
+        },
+        "redundant": 60,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 10242,
+      "format": "classical",
+      "sha256": "d48ff809c63ab2295efb38c556408a4d7fe15c823e7efa9863f1d5f21a77a3f1"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/qcloud.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

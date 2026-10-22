@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 368,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 16
+    },
+    "digest": "sha256:0cc668f07da11d259f4fa83c4b9fb40a60bb0b47060a6faa6dc0a6d90eb9b0f6",
+    "entries": 16,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 16
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 484,
+      "format": "classical",
+      "sha256": "4b2ef21d42b5a7c99857f05060898d5b159ddf6ac961fcff1ea543e14fe649da"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/grapheneos.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

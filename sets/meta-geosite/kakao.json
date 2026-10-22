@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 816,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 57
+    },
+    "digest": "sha256:281476397ed39d4b669bfc58f9853d8b1ef0207e0fac07b03802453cdca9b532",
+    "entries": 57,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 57
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1600,
+      "format": "classical",
+      "sha256": "16569013c3b95d677aea85a70fabb48d2f14b6bb2ded4cfd7a3334fefb86b636"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/kakao.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

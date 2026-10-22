@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 856,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 87
+    },
+    "digest": "sha256:e3f06f11390ec3fc0397f475ca185f19c7ecee397677fd26728db5c81c78a392",
+    "entries": 87,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 87
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2224,
+      "format": "classical",
+      "sha256": "4b4821a0821ba9af3cee901e61dc24791e6108355798ae1d199f5caee854fde6"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/category-electronic-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

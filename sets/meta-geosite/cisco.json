@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1520,
+    "counts": {
+      "exact": 2,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 119
+    },
+    "digest": "sha256:dd592245ae38aaecbad111899da6b8049d4eddb5bc00967c3d2d03351e9f0f63",
+    "entries": 121,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 119
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3515,
+      "format": "classical",
+      "sha256": "d08637c424b151de016c066590e49c469368caf824328da2fefff18ed01b5132"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/cisco.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

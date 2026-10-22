@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 800,
+    "counts": {
+      "exact": 2,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 67
+    },
+    "digest": "sha256:1d90f60f77a639bb67d5958d7a9c8f571eb5c9d75a4f66dfac09907ce70169e7",
+    "entries": 69,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 98,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 68
+        },
+        "redundant": 97,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 5193,
+      "format": "classical",
+      "sha256": "95b9a74a0bea5cbdb341c37f09f6f2424e715d5f6ee6ebd4e88ad10ac033f3cb"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/category-antivirus.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

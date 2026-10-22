@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 344,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 12
+    },
+    "digest": "sha256:0798d3a347bd2d0aa00c315b22665407e555600743665028f4d4412291d7ceb1",
+    "entries": 12,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 12
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 332,
+      "format": "classical",
+      "sha256": "270f96ac6a2de8c9af12ed65309befb89da8cd721cb848cbc7e4626cf21c21a7"
+    }
+  },
+  "upstream": {
+    "commit": "5b62abd872efea28a44ee1ec0dc3869cff27c739",
+    "path": "geo/geosite/classical/yuanfudao.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
