@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 632,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 41
+    },
+    "digest": "sha256:ca556ed6032095d7b8e50a2aeeee16b9e282d025ad0eb763804a0f8abd84dcba",
+    "entries": 42,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 41
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1195,
+      "format": "classical",
+      "sha256": "f964121949a08134d814237f905e704c020be2351035d5adfb9887de15960e9a"
+    }
+  },
+  "upstream": {
+    "commit": "c8c1a27018377ec8a7f60c320efb3023681909eb",
+    "path": "geo/geosite/classical/xbox.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

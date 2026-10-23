@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 240,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 2
+    },
+    "digest": "sha256:f6a01a91439933aeba5c78911e14a6cca27bffeb3b2716a173b45e144d99173f",
+    "entries": 2,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 2
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 53,
+      "format": "classical",
+      "sha256": "1e808f98b425f95ef9de91ea63c7e41c9fe57e6aee4ef3cf491afbfd67e98d33"
+    }
+  },
+  "upstream": {
+    "commit": "c8c1a27018377ec8a7f60c320efb3023681909eb",
+    "path": "geo/geosite/classical/lantern.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

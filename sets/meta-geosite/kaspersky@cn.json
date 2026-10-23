@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 640,
+    "counts": {
+      "exact": 96,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 1
+    },
+    "digest": "sha256:b6d30e953b72536c03d48c46f31c7a464b705c4d0ea40c150791533dce74df25",
+    "entries": 97,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 96,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 1
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3254,
+      "format": "classical",
+      "sha256": "bd74820c4a03306ddd50436e45089be98945ffac28f9e9bd24b4d15b32f33763"
+    }
+  },
+  "upstream": {
+    "commit": "c8c1a27018377ec8a7f60c320efb3023681909eb",
+    "path": "geo/geosite/classical/kaspersky@cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

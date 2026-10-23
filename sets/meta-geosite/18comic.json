@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 616,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 51
+    },
+    "digest": "sha256:c300d513478b2acf71058746f591b07d1a9f6976c33422034f3c5d84131e9584",
+    "entries": 51,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 51
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1448,
+      "format": "classical",
+      "sha256": "b31a4ab3526d0d2167cd949f7815393c02ee025fc7103520835c0d294a398c28"
+    }
+  },
+  "upstream": {
+    "commit": "c8c1a27018377ec8a7f60c320efb3023681909eb",
+    "path": "geo/geosite/classical/18comic.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

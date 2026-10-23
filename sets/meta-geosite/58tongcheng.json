@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 576,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 42
+    },
+    "digest": "sha256:530ade883891b4a506bfd7171a773bb17715b8492332aa6c3b706eb2dd2aff18",
+    "entries": 42,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 42
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1111,
+      "format": "classical",
+      "sha256": "f4f91ce0ae6beea632ad0b40bae69f969727ea4be4aa2eee43c1071bda52e69f"
+    }
+  },
+  "upstream": {
+    "commit": "c8c1a27018377ec8a7f60c320efb3023681909eb",
+    "path": "geo/geosite/classical/58tongcheng.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
