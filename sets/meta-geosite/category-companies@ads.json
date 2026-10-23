@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2568,
+    "counts": {
+      "exact": 85,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 138
+    },
+    "digest": "sha256:2f04c4238e63e0c1998af66c0a4b112b3ff87e1cf91a1f969c4030f0a636c9fd",
+    "entries": 223,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 85,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 138
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 6445,
+      "format": "classical",
+      "sha256": "1bd2123e3b804e1f360e5fc27b68a01acdb56aef00ecd618f44dbd105af56bf1"
+    }
+  },
+  "upstream": {
+    "commit": "c8c1a27018377ec8a7f60c320efb3023681909eb",
+    "path": "geo/geosite/classical/category-companies@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

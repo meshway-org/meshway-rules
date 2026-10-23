@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 5064,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 729
+    },
+    "digest": "sha256:f5632138150287a1a349ee760dc72c3d629d58ba06ac6e95675fed6e485263df",
+    "entries": 729,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 729
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 21251,
+      "format": "classical",
+      "sha256": "b37198b620e2357c34ad4e655cd0e18110ab90bb354b19fce2f9dd93d492db78"
+    }
+  },
+  "upstream": {
+    "commit": "c8c1a27018377ec8a7f60c320efb3023681909eb",
+    "path": "geo/geosite/classical/bmw.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

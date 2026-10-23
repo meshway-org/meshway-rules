@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 560,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 43
+    },
+    "digest": "sha256:5b8bcf7357a20ad984234d769ed6c86a348112a40f42e9cfef39b30aadc256b5",
+    "entries": 43,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 43
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1295,
+      "format": "classical",
+      "sha256": "654036ced50bc4df8d08c937756cdea896348f56c62cd41557503c9c4466e5d7"
+    }
+  },
+  "upstream": {
+    "commit": "c8c1a27018377ec8a7f60c320efb3023681909eb",
+    "path": "geo/geosite/classical/mcdonalds.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

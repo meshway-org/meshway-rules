@@ -1,0 +1,54 @@
+{
+  "conversion": {
+    "bytes": 464,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 26
+    },
+    "digest": "sha256:24319a1840526e78d47ba3fbbf9f139d0b8adac4b82d3efe4c261b2af70fd39e",
+    "entries": 26,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 27",
+          "entry": "DOMAIN-REGEX,.+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 28",
+          "entry": "DOMAIN-REGEX,.+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 26
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 2
+        }
+      }
+    },
+    "source": {
+      "bytes": 890,
+      "format": "classical",
+      "sha256": "f0d5036d523f255542f2f12e95c7d8a51fe1011e9d09b191bb093893b11c34d8"
+    }
+  },
+  "upstream": {
+    "commit": "c8c1a27018377ec8a7f60c320efb3023681909eb",
+    "path": "geo/geosite/classical/aws-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

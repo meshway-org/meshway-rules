@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 568,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 42
+    },
+    "digest": "sha256:32655a6c3902bce4e6b8bf935af478c5f1bcf3a6789937ce6f313bf870ab386e",
+    "entries": 42,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 54
+        },
+        "redundant": 12,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1466,
+      "format": "classical",
+      "sha256": "f7983563a4286ec2dbfc4992a0a64a3ac53726206fb455807ff022711a817dca"
+    }
+  },
+  "upstream": {
+    "commit": "c8c1a27018377ec8a7f60c320efb3023681909eb",
+    "path": "geo/geosite/classical/netease.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

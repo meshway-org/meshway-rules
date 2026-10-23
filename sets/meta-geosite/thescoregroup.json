@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1656,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 111
+    },
+    "digest": "sha256:ae4807a74cc4d7cf8222d26dabc674920abccd14458c22ba16d281393315a9bd",
+    "entries": 111,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 111
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3511,
+      "format": "classical",
+      "sha256": "22fb9594e142dee9113ab76bd8763692bb6818e12f33cfe9de3f981e7104c2ec"
+    }
+  },
+  "upstream": {
+    "commit": "c8c1a27018377ec8a7f60c320efb3023681909eb",
+    "path": "geo/geosite/classical/thescoregroup.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

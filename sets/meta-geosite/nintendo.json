@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1584,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 124
+    },
+    "digest": "sha256:333c434a8c61d4fe0bc038b0efb74abbfc595df924903bb9d3a6c2a44b77a6ef",
+    "entries": 124,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 124
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3889,
+      "format": "classical",
+      "sha256": "4d2e718be344f4edcb944b132381b677623a2fe26c42edbae69d967c4e9c7011"
+    }
+  },
+  "upstream": {
+    "commit": "c8c1a27018377ec8a7f60c320efb3023681909eb",
+    "path": "geo/geosite/classical/nintendo.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
