@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 344,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 15
+    },
+    "digest": "sha256:b6e39fbd87713003b96e808fb6d797197fbc311f45cb1fb0b3e29e9420c64130",
+    "entries": 15,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 15
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 399,
+      "format": "classical",
+      "sha256": "4a194a38d2fd89ab5b26f51c975d91982e92ea7b7296a650d624df524b7851c9"
+    }
+  },
+  "upstream": {
+    "commit": "45a9c7f0489f8b1c7c3ae09192e2a6caa369a265",
+    "path": "geo/geosite/classical/deepin.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

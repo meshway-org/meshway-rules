@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1504,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 131
+    },
+    "digest": "sha256:872aff572250064998926baea302811bd69a8195c6d0a6dbf0d76194f8bc08b8",
+    "entries": 131,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 131
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3738,
+      "format": "classical",
+      "sha256": "7ac34b8f359ad7352c2bc91c35f8ed81469ad1a74eb979023f0a58527dd6f394"
+    }
+  },
+  "upstream": {
+    "commit": "45a9c7f0489f8b1c7c3ae09192e2a6caa369a265",
+    "path": "geo/geosite/classical/falungong.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

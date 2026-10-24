@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 3320,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 394
+    },
+    "digest": "sha256:8aaf7db9dea62959544a69a37af3e002c52bbced010689f306c1981795e87734",
+    "entries": 395,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 396
+        },
+        "redundant": 2,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 11891,
+      "format": "classical",
+      "sha256": "b62b8a2c476b2559412b4956c10526ff49e407cc0b724ce336f7733185d00c04"
+    }
+  },
+  "upstream": {
+    "commit": "45a9c7f0489f8b1c7c3ae09192e2a6caa369a265",
+    "path": "geo/geosite/classical/facebook.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

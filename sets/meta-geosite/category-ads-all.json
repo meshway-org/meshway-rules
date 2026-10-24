@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 9528,
+    "counts": {
+      "exact": 155,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 744
+    },
+    "digest": "sha256:b5bb906900a04a52092c51943f1d436983a5319df420cc9d7297122d17afc5d7",
+    "entries": 899,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 592",
+          "entry": "DOMAIN-REGEX,^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 159,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 744
+        },
+        "redundant": 4,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 27510,
+      "format": "classical",
+      "sha256": "1cdad7f3bcc877b66eb50cf7482e08baa847d38c889a4289feff2cc01d25a554"
+    }
+  },
+  "upstream": {
+    "commit": "45a9c7f0489f8b1c7c3ae09192e2a6caa369a265",
+    "path": "geo/geosite/classical/category-ads-all.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

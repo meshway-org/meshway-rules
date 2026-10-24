@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 624,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 67
+    },
+    "digest": "sha256:5752f48bf7683376b76a57f046c70d1ae96978b8195d8400c16d6bcd307e7c11",
+    "entries": 67,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 67
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2047,
+      "format": "classical",
+      "sha256": "a4ff170f50be26d01d6ede3b04b80bdaf755ba605bb73349bfc93f11250500bd"
+    }
+  },
+  "upstream": {
+    "commit": "45a9c7f0489f8b1c7c3ae09192e2a6caa369a265",
+    "path": "geo/geosite/classical/starbucks.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

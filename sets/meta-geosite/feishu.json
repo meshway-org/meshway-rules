@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 576,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 43
+    },
+    "digest": "sha256:a844cf7eb3120bdc9f3c7d241d19e619c29739b43ac2c1ca6e9766a5f5eade9f",
+    "entries": 43,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 43
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1268,
+      "format": "classical",
+      "sha256": "2a04d51ce592fbaec1f9bcec4f10090c1adcaf80ea5f7428abcf8e0961455dcf"
+    }
+  },
+  "upstream": {
+    "commit": "45a9c7f0489f8b1c7c3ae09192e2a6caa369a265",
+    "path": "geo/geosite/classical/feishu.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
