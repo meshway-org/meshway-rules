@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 288,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 7
+    },
+    "digest": "sha256:6e82e1f0d09458a02f575d9ab770a1d7c955c658c8a9cb43ac5121809c34b139",
+    "entries": 7,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 7
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 181,
+      "format": "classical",
+      "sha256": "66197ea47c6c0055cf91a92f871654993a3ab984ce6ddeee8c73c79d77356c96"
+    }
+  },
+  "upstream": {
+    "commit": "2d368ff6025f49e068e848487bac54056e123a79",
+    "path": "geo/geosite/classical/fengxing.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

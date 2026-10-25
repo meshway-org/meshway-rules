@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 272,
+    "counts": {
+      "exact": 2,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 2
+    },
+    "digest": "sha256:ef7b2ddd45c5894f032bbfbb19726a8dbf7c9da98f909e6d6dc81887ab90dc11",
+    "entries": 4,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 2
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 128,
+      "format": "classical",
+      "sha256": "126855065ce98b1d0ce73639aae1cadd81ce4b728ebfc7e0a9db117b0e004310"
+    }
+  },
+  "upstream": {
+    "commit": "2d368ff6025f49e068e848487bac54056e123a79",
+    "path": "geo/geosite/classical/standardchartered.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1656,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 167
+    },
+    "digest": "sha256:484faf24f1129b2475b9ef4286d4efb81d89e58afbe10744ed181ab4e79c7577",
+    "entries": 167,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 34,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 167
+        },
+        "redundant": 34,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 5465,
+      "format": "classical",
+      "sha256": "d991863b1e5a8815cefc87e736548ad83a953340199b419de6883fdb1ae8fce0"
+    }
+  },
+  "upstream": {
+    "commit": "2d368ff6025f49e068e848487bac54056e123a79",
+    "path": "geo/geosite/classical/category-ecommerce-ru.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

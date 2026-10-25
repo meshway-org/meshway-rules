@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2704,
+    "counts": {
+      "exact": 8,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 232
+    },
+    "digest": "sha256:a59f0275f6b084e178897f0ad0907012bbde0e4ebf13724a8c2faf0300327f03",
+    "entries": 240,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 8,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 232
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 6556,
+      "format": "classical",
+      "sha256": "fb78bf9cfa9b90fcb73d11f56af1042bd581aee5d6dc8981ed0d5f9d4fad7afa"
+    }
+  },
+  "upstream": {
+    "commit": "2d368ff6025f49e068e848487bac54056e123a79",
+    "path": "geo/geosite/classical/category-cryptocurrency.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

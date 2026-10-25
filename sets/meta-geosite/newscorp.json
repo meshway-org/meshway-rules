@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2000,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 152
+    },
+    "digest": "sha256:5453e514b79945a0d8751c64d0320d5c15e83dcbe702e4095ad91cb57fc0607a",
+    "entries": 152,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 152
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 4653,
+      "format": "classical",
+      "sha256": "911fd996c7e3a8932c419b5a1f612f0159ea36536c8859c644f110e6be5f78a5"
+    }
+  },
+  "upstream": {
+    "commit": "2d368ff6025f49e068e848487bac54056e123a79",
+    "path": "geo/geosite/classical/newscorp.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
