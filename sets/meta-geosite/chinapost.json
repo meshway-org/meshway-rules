@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 368,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 19
+    },
+    "digest": "sha256:04ccb62615f63ccf6b616f01ab230d6bab349e7c4fef6a03ae441354b5106b7f",
+    "entries": 19,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 19
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 520,
+      "format": "classical",
+      "sha256": "6da422b35f8421554de3d6a8590d1b7844009276b6e4e8397baea68bed5bab14"
+    }
+  },
+  "upstream": {
+    "commit": "c4d4a91ff5bd2847189d502aa60bd4b0e697753b",
+    "path": "geo/geosite/classical/chinapost.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

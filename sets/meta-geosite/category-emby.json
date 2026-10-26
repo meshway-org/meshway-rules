@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1192,
+    "counts": {
+      "exact": 52,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 31
+    },
+    "digest": "sha256:457380ee9786bdd488997e4e1720c3dc9b989cd2dfd8f288984c952edb41c5da",
+    "entries": 83,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 59,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 31
+        },
+        "redundant": 7,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2248,
+      "format": "classical",
+      "sha256": "3b649adbb6483a38e8dc0e9cd6529683de0d5df449b4ee363a1d1f29ba9f47a9"
+    }
+  },
+  "upstream": {
+    "commit": "c4d4a91ff5bd2847189d502aa60bd4b0e697753b",
+    "path": "geo/geosite/classical/category-emby.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

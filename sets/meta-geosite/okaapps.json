@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 224,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 1
+    },
+    "digest": "sha256:2f2ab812109fd06dd51942f3b790d580de683763519c489cb19cd2112f1d0a1e",
+    "entries": 1,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 2",
+          "entry": "DOMAIN-REGEX,^(.+\\.)*zh\\.okaapps\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 1
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 64,
+      "format": "classical",
+      "sha256": "aab87833a8b3291efb810943b02bf02bd2edfdf9aca3ddff31b0e05266ac5a49"
+    }
+  },
+  "upstream": {
+    "commit": "c4d4a91ff5bd2847189d502aa60bd4b0e697753b",
+    "path": "geo/geosite/classical/okaapps.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

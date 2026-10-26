@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1168,
+    "counts": {
+      "exact": 2,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 77
+    },
+    "digest": "sha256:6085f81d189b78fc165bc6c39f307754b667a941693709561e1639e082f775f2",
+    "entries": 79,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 77
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2218,
+      "format": "classical",
+      "sha256": "026591e86fe5a3443cd3521dfcf7b24f6c35820821f5a8700b9da2b557fc9a7f"
+    }
+  },
+  "upstream": {
+    "commit": "c4d4a91ff5bd2847189d502aa60bd4b0e697753b",
+    "path": "geo/geosite/classical/category-flight-simulator.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

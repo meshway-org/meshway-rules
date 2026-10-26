@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1056,
+    "counts": {
+      "exact": 75,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 40
+    },
+    "digest": "sha256:ad4e71f942de4ae7fe3327040fe998f9246ce84dc4e3a10ff99e84c06748a929",
+    "entries": 115,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 75,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 41
+        },
+        "redundant": 1,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3123,
+      "format": "classical",
+      "sha256": "24b2c4e7d6af3b77f1cf0cec4bbd7cb6a6a8e6d9c3f963241748353bfaa10246"
+    }
+  },
+  "upstream": {
+    "commit": "c4d4a91ff5bd2847189d502aa60bd4b0e697753b",
+    "path": "geo/geosite/classical/category-ntp.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

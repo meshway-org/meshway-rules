@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2416,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 287
+    },
+    "digest": "sha256:d5cbb21a4acd7cc396e7a22e1cbed94d9b3502ebec8abe58a2838a41a65b2a8e",
+    "entries": 287,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 287
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 7725,
+      "format": "classical",
+      "sha256": "b567af035471ec692c5d7dd8e7081bf52d03a3574d61026f4e901a8149e119a9"
+    }
+  },
+  "upstream": {
+    "commit": "c4d4a91ff5bd2847189d502aa60bd4b0e697753b",
+    "path": "geo/geosite/classical/intel.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

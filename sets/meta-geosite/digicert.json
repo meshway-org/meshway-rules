@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 768,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 74
+    },
+    "digest": "sha256:be55f73683f1ef956caebdaf8bd5eaabda793b4213ade32186ded295ad395e05",
+    "entries": 74,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 74
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2723,
+      "format": "classical",
+      "sha256": "f7da5cc2968c19fc01fd738a5054130ff7d8b3761ddcbe11a273bb51c4dbdc42"
+    }
+  },
+  "upstream": {
+    "commit": "c4d4a91ff5bd2847189d502aa60bd4b0e697753b",
+    "path": "geo/geosite/classical/digicert.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
