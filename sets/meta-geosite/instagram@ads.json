@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 248,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 2
+    },
+    "digest": "sha256:ec3417ea30f0915e042386e8472f7c863922ce7f5f870dc670c58598ac1d847d",
+    "entries": 2,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 2
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 76,
+      "format": "classical",
+      "sha256": "1398e65bf22fb7dffd3f4843084f91aeecefd82ed9b91851df3cf96e43831fd6"
+    }
+  },
+  "upstream": {
+    "commit": "251f53ed936ccefc5ed6407b0b85a06878e3dbe1",
+    "path": "geo/geosite/classical/instagram@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

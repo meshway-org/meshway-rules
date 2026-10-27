@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 608,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 36
+    },
+    "digest": "sha256:cba899ff7cbf4e45479129e29f0e28efbc5b28b4cfd91c51ef40d4a0aa73f436",
+    "entries": 36,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 36
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1133,
+      "format": "classical",
+      "sha256": "94a60e83505671b3c65f0eb54cd34fcffacf4b3d21519b9675d4f3ef0b24761c"
+    }
+  },
+  "upstream": {
+    "commit": "251f53ed936ccefc5ed6407b0b85a06878e3dbe1",
+    "path": "geo/geosite/classical/test-ipv6.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

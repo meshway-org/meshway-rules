@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 2432,
+    "counts": {
+      "exact": 4,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 218
+    },
+    "digest": "sha256:225007859383b85cf8de268e1483bd066346fa2d62818c32701ef65b78f2bfdb",
+    "entries": 222,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 223",
+          "entry": "DOMAIN-REGEX,^hses[1-7]?\\.akamaized\\.net$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 6,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 218
+        },
+        "redundant": 2,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 6822,
+      "format": "classical",
+      "sha256": "6865ac7052f4c62bd120117c1d60c0066e1f61d28c46511746a117c5a09e8e24"
+    }
+  },
+  "upstream": {
+    "commit": "251f53ed936ccefc5ed6407b0b85a06878e3dbe1",
+    "path": "geo/geosite/classical/disney.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

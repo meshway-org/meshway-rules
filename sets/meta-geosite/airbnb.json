@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 552,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 83
+    },
+    "digest": "sha256:6825c96f40efacaf8a45edf2a28bcafb5208faa404c316a9120ada2274dadb1a",
+    "entries": 83,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 83
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2143,
+      "format": "classical",
+      "sha256": "3782f7246ca46754060adf292fb2d34a942f528c27a131c0ef8e2f0d6246be8b"
+    }
+  },
+  "upstream": {
+    "commit": "251f53ed936ccefc5ed6407b0b85a06878e3dbe1",
+    "path": "geo/geosite/classical/airbnb.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 440,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 19
+    },
+    "digest": "sha256:418250cc783ba2c58c938ef7fbaca8a61cf2051805d7f39f7fc3b7d331eae205",
+    "entries": 20,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 21",
+          "entry": "DOMAIN-REGEX,^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 19
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 670,
+      "format": "classical",
+      "sha256": "0597bb13cfc6dabd93d93742226ee2ba20dc3e901a2b483878e4d1024c6c7633"
+    }
+  },
+  "upstream": {
+    "commit": "251f53ed936ccefc5ed6407b0b85a06878e3dbe1",
+    "path": "geo/geosite/classical/ookla-speedtest.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
