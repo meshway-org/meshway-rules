@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 272,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 7
+    },
+    "digest": "sha256:1264099c28a8ae008d410791c043310c640ace0a5c16ad4543383cbb3e4ef312",
+    "entries": 7,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 7
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 180,
+      "format": "classical",
+      "sha256": "fa2dc37045570dc7e8e741f59e80f55be8beb0a7b8e9815efef7afbc49211456"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/ifanr.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 512,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 32
+    },
+    "digest": "sha256:88d9f1dda9962edb2fe364791d7141214b1f9c4f4dd21d239d1e4d5e20d85859",
+    "entries": 32,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 32
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1030,
+      "format": "classical",
+      "sha256": "92ecb522d049c5f95b147ff3efc3f92f0d49137ed8a7b0ea25dba33249492604"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/thomsonreuters.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

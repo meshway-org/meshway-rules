@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 280,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 3
+    },
+    "digest": "sha256:75c3856eb4b1d6d34c77e4d5530310d6d92472a047fa0134b12148613244e19b",
+    "entries": 3,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 3
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 118,
+      "format": "classical",
+      "sha256": "bce5c7bdcf0a31a2e466e4dd973953e1d6bdf8dafc19d766728cbc08cede9da9"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/category-games@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 248,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 3
+    },
+    "digest": "sha256:5cf030fd9ba78c7032565ff08d02d9b7aa28f1ee1b6255c47d7deefe48db4e6d",
+    "entries": 3,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 3
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 79,
+      "format": "classical",
+      "sha256": "9ce369d04180095cd94c97456f9f535ae0ab58ce59c3d8286029dc4a7ccc4858"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/snodehome.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

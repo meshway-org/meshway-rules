@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 328,
+    "counts": {
+      "exact": 5,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:70b4a2d4166cbe48f1552fe97f0b65b2023d9203198da072e96cc7091c0ae15a",
+    "entries": 5,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 5,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 202,
+      "format": "classical",
+      "sha256": "c83a1d75f4dca284c6d4c926972f534094d9ec38822a9d9835e263d7e3fe85f6"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/category-ai-chat-!cn@telemetry.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

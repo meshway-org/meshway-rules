@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 360,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 23
+    },
+    "digest": "sha256:08f8442e627fe7eee1bbfa7558da0c12ceab79410a49ae2311064abf6df638cb",
+    "entries": 23,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 23
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 607,
+      "format": "classical",
+      "sha256": "02ef709023e81bce4e6c484a30ff9bd89e4637b86e17ec4d6326911f36432abf"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/westerndigital.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 512,
+    "counts": {
+      "exact": 7,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 18
+    },
+    "digest": "sha256:a286f42ccff3439b7d341f5cc305cfcc97d2d84e390950df7f84f34b69de2998",
+    "entries": 25,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 7,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 18
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 617,
+      "format": "classical",
+      "sha256": "f4b188ea74869c5c3c1c850cdffed28534c6ff09086d5cce92ef1553c12ab50a"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/category-travel-ru.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

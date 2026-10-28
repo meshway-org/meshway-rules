@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 320,
+    "counts": {
+      "exact": 15,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:87543930c0d992efb7ddb903a5c58df0be378a036dbc3494f7459aaf1e3a73d7",
+    "entries": 15,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 15,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 491,
+      "format": "classical",
+      "sha256": "0c01b805d9b3e7a1f6e6177828c0c56f6d6018999babfd7f67aef28c9e9b842a"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/fqnovel@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

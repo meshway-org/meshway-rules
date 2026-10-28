@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 680,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 32
+    },
+    "digest": "sha256:f3595816ece91702cbc9aeae4b52c2a5b663e396ca90bac7af6b71809810ca9a",
+    "entries": 32,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 32
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 939,
+      "format": "classical",
+      "sha256": "227776eccee860141cd7aa7f3d859135fb3ace9a4428c6cc955f8928bd42d72c"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/misskey-universe.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

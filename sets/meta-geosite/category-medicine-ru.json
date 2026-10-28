@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 672,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 45
+    },
+    "digest": "sha256:bd42288d22cf5e99392c95c33ef4af41997308a7eeb6703e7463f708ef525eac",
+    "entries": 45,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 45
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1184,
+      "format": "classical",
+      "sha256": "08d0677e7bbf82ab434659a6b14301e3cbdd8ed1d4ba5474af3640235f0ee616"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/category-medicine-ru.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

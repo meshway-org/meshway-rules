@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 456,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 27
+    },
+    "digest": "sha256:c8f7105a5375349425fa88fd0882484e35c26541a80aaa5c36359df7635ce10e",
+    "entries": 27,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 27
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 696,
+      "format": "classical",
+      "sha256": "a8e9c41ab145073e00497ab6dd89f2376c2e76da73ef25b9c13697c842e73d06"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/vercel.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

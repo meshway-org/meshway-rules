@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2736,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 327
+    },
+    "digest": "sha256:f19b2913b8377008fcf80c7ff3fbae0fc19b56631b0f0c61fc207fae9aa8a41e",
+    "entries": 327,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 327
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 13415,
+      "format": "classical",
+      "sha256": "898d603a37fde5e3e817276d54a50e734aa2460d98371a8b1215193d5fe245a9"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/win-spy.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

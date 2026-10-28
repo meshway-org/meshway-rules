@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 384,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 14
+    },
+    "digest": "sha256:fe0601623cd80675a22c5f24d13addc5a23cb02b16d400c7c4b3e5adcb20cdef",
+    "entries": 14,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 14
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 398,
+      "format": "classical",
+      "sha256": "65b31b36dc14b4dc82afb9271cb298cacb8024da283d19577bd1e044be2b3b64"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/tvb.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

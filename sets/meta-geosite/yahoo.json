@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1056,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 174
+    },
+    "digest": "sha256:a419dee014b3387b86c76378866c5d63a98987c5bca9286eb0c62fc30d40bdda",
+    "entries": 175,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 177
+        },
+        "redundant": 3,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 4437,
+      "format": "classical",
+      "sha256": "47fed2f28b6531bb66ac0aa894d7c18f10a593a379729735eb40f7f1f372fad6"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/yahoo.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

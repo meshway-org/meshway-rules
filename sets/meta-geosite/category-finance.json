@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 5976,
+    "counts": {
+      "exact": 2,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 654
+    },
+    "digest": "sha256:d8f1fefc68712435c0e9aa5fd957b7c8f4939f657c8e3759f221d9c38318beac",
+    "entries": 656,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 5,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 656
+        },
+        "redundant": 5,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 18202,
+      "format": "classical",
+      "sha256": "5b76c202011ab18eecbc3fef1037fde8bd30f3e65ca2b5ab823c8c35f9ba3538"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/category-finance.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 704,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 52
+    },
+    "digest": "sha256:3f7f924ba9f02d02f9b56f39f6103d5265ddef045cd51fb1d3afeb8a7ee7f5ba",
+    "entries": 52,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 54
+        },
+        "redundant": 2,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1414,
+      "format": "classical",
+      "sha256": "eddc2c4c43329b1049f9249cdf065753adc2d6f3ece91cdf5379ee628e449c4b"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/category-social-media-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

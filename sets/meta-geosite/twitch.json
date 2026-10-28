@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 760,
+    "counts": {
+      "exact": 27,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 8
+    },
+    "digest": "sha256:5718c0ba6ad203a5e66e725eecb0e28a621b2e31b364e1e2a088366561974476",
+    "entries": 35,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 27,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 8
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1203,
+      "format": "classical",
+      "sha256": "93f217574cdb9788a7af1b4adeba7fcb7ce59f750be28ee289e7f2e3ce9c8434"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/twitch.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

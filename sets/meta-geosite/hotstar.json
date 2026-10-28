@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 272,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 5
+    },
+    "digest": "sha256:089ac73e1b0f1fa8e997df85db3d5f51fc41483b2705f1902942431497814425",
+    "entries": 5,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 6",
+          "entry": "DOMAIN-REGEX,^hses[1-7]?\\.akamaized\\.net$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 5
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 195,
+      "format": "classical",
+      "sha256": "c70748067013541b3940bedaccab4f601f0d743c5ab89da82b532adcd0406ccb"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/hotstar.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

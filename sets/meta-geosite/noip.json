@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1184,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 83
+    },
+    "digest": "sha256:0a198eab3102bd1aac4678b15422e2a02c9afabd2d3919c1437053d7de901638",
+    "entries": 83,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 83
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2367,
+      "format": "classical",
+      "sha256": "3c1c1261b746c7f73c782c9dd5648b8736075d30b7a3cc33211538b392a54f5d"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/noip.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 456,
+    "counts": {
+      "exact": 2,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 21
+    },
+    "digest": "sha256:7e0242a416e13c4a9e61e9718a5af79a2b90cded60e8234fa343c825f792b3de",
+    "entries": 23,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 21
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 675,
+      "format": "classical",
+      "sha256": "0201e8637d4042e4f287c973d6430e4658240f8cc99e0954fe1a57908e9d42ea"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/supercell.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

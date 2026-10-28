@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 968,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 78
+    },
+    "digest": "sha256:16b4fcd61b7f5ab565550fecc81397894e8e7c6080c4082236482daaa5dc1ac5",
+    "entries": 79,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 4,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 78
+        },
+        "redundant": 3,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2021,
+      "format": "classical",
+      "sha256": "e6e469e14160eadaeeab102ba14a9c343f257c4a92b9b6f73ace80e41cd42ec3"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/category-retail-ru.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

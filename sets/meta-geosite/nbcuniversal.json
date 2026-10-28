@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 392,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 17
+    },
+    "digest": "sha256:f5c832eb961f64838e8fb2092df771013508dd4c58b56d3ebc7bb8dfc93a4d2f",
+    "entries": 17,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 17
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 503,
+      "format": "classical",
+      "sha256": "728df1312c21fd0a1e98baea0f2931ccc2bcc7227ca21046d6a7d0f886b8f5c2"
+    }
+  },
+  "upstream": {
+    "commit": "9f2b7462c7508ad85a1137e70d502b783c89794d",
+    "path": "geo/geosite/classical/nbcuniversal.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
