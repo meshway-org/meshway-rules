@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 304,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 11
+    },
+    "digest": "sha256:d65f265bd20278349107b5b65ab5264deca356a3efe50b94b604546025a81573",
+    "entries": 11,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 11
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 287,
+      "format": "classical",
+      "sha256": "06481e80cb6f5950950b6f57002ea102bbebd8818183cbc2f81840583cb581c7"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/trustasia.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

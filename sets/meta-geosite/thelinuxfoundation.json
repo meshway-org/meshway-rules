@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 384,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 15
+    },
+    "digest": "sha256:b413407aa29544302edcf3aa9f25e0cdf97857788adaa913357abcdab22374ea",
+    "entries": 16,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 15
+        },
+        "redundant": 1,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 461,
+      "format": "classical",
+      "sha256": "4ca12e7c648230492f5315c84ba3d8d8720057e29c2d8cee4376479e0e618232"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/thelinuxfoundation.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

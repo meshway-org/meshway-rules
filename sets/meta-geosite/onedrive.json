@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 400,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 3,
+      "subdomain": 0,
+      "suffix": 10
+    },
+    "digest": "sha256:25cf3fea6aa0cded595724a0db4b0513866e059bed684c4b055602d87ae2a725",
+    "entries": 13,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 3,
+          "subdomain": 0,
+          "suffix": 16
+        },
+        "redundant": 6,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 567,
+      "format": "classical",
+      "sha256": "2a78a17c0f019594df528b6adfe567ee110e2908a5aac0be5959b77401c0f83d"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/onedrive.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

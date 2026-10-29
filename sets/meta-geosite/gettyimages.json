@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 336,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 25
+    },
+    "digest": "sha256:8d40dced7fbc931427a628473e3afd6adbbc989b8560b00f8437c012e53599fb",
+    "entries": 25,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 25
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 746,
+      "format": "classical",
+      "sha256": "a449e8425f87114c07ec03661c4f2ce20e2815129b686610559dfea1715ff828"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/gettyimages.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 296,
+    "counts": {
+      "exact": 5,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:df3cc611546d8b4f8f830f8507c731890dbeff24ebbac638abd8ea89b5e8e758",
+    "entries": 5,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 5,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 157,
+      "format": "classical",
+      "sha256": "401ce1d2c0d3c592f9c050b48c789a361f53cdfc059001354a19416f6e3d9a8a"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/wildberries@telemetry.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

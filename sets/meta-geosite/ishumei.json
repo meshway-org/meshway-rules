@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 304,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 10
+    },
+    "digest": "sha256:a6998bae7d35bff76946923307fa36dd7154a2e3e84e77f4658b2902c8c2bef2",
+    "entries": 10,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 10
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 283,
+      "format": "classical",
+      "sha256": "7791be179be357ec176f62a0b3f7d23ad8007fc9af10fb58ca507bc5bab5b9e8"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/ishumei.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

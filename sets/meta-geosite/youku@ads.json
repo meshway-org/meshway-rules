@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 408,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 21
+    },
+    "digest": "sha256:9afaf7354b9f435ed2d27672384e3245ee6bb8a57ec8b8a45d0e0b50d0ffcdb4",
+    "entries": 21,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 21
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 691,
+      "format": "classical",
+      "sha256": "3cce61a884a0303f780213072a2b1fb0995330696fb67d312331be3213091b48"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/youku@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

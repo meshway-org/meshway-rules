@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 920,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 69
+    },
+    "digest": "sha256:8978b7f8e09a371bf29bcfd106c3860b966d8e3ae3f4bb783ebe47e51c99465c",
+    "entries": 69,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 69
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1861,
+      "format": "classical",
+      "sha256": "e20a0c2753f7761f723cba4dd8f432f8304f0ea300128047abd7561fbb4b977b"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/category-vpnservices.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

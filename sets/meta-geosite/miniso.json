@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 456,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 36
+    },
+    "digest": "sha256:ec7e36b842fd07e171b99c002979ee80336dc6a5e73daa2efe81f2fd9a72ab26",
+    "entries": 36,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 36
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 966,
+      "format": "classical",
+      "sha256": "39a8022aa7ae750aaab0f213729f2db5253cc7ab007357223bfd03a4d2adb04e"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/miniso.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

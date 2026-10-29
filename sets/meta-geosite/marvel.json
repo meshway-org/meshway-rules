@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 376,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 10
+    },
+    "digest": "sha256:fe5a8eff2fc4db87c5f695c356b4806da152e62a74274a9cafe4e4769d72796d",
+    "entries": 10,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 10
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 362,
+      "format": "classical",
+      "sha256": "5eac8e3f0aace8971b2bd8071fa19ba8f781680f9aa5cda1d8792327efd4c03c"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/marvel.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

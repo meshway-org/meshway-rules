@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 304,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 9
+    },
+    "digest": "sha256:28235174d3b191aef59553b51903167ff4d56aa191110cd563b738faad6d2274",
+    "entries": 9,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 9
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 231,
+      "format": "classical",
+      "sha256": "2d8d1c08e7b4883c90b8ac61d2b87b78874379cfb92bce2bc378548d103c1c60"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/pixnet.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

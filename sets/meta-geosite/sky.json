@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 320,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 12
+    },
+    "digest": "sha256:33cbcac6a710a20a1ff550bea8904f483bbc3e5a88ce0935cc461e5c235e8d1a",
+    "entries": 12,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 13
+        },
+        "redundant": 1,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 380,
+      "format": "classical",
+      "sha256": "4120bde212bd68e94f9049633ad6b65bb9e15634b8d93d9ed0c332cc697cb3f7"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/sky.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

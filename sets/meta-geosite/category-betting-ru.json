@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 360,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 13
+    },
+    "digest": "sha256:583b785f84625bdf107f98afdd220400ceeedcac8e4b1a969bfcf1721480c9f1",
+    "entries": 13,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 13
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 366,
+      "format": "classical",
+      "sha256": "cef724d39eee99ebd683b94f28be75647c820b08018a330ef52c174545929d28"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/category-betting-ru.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

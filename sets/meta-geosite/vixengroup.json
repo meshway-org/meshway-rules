@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 296,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 9
+    },
+    "digest": "sha256:4e28a5bcfb1cd5ffd2295dbe4fdb8b88ce53400d8621911b2a0c11d22af9cfde",
+    "entries": 9,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 9
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 232,
+      "format": "classical",
+      "sha256": "b19ff2a68c53c709f0544395239a0d26d8815fdb22ffe5fc795ccfaadfd6bd59"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/vixengroup.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

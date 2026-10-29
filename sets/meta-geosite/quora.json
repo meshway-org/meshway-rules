@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 288,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 5
+    },
+    "digest": "sha256:6845c9b3a379a30ee2afb03367aafbf3cd9d75af3522b368eba31ad8d85ade1b",
+    "entries": 6,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 5
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 157,
+      "format": "classical",
+      "sha256": "d7388949bf99863612585b6508d105a63ef4614035c4bc812607d3ee6e312bf2"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/quora.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

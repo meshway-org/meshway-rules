@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 272,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 6
+    },
+    "digest": "sha256:4c08f80cf72807cf6b58896673b81a9918d2b6e700cd175f227ae2338af8f18f",
+    "entries": 6,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 6
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 189,
+      "format": "classical",
+      "sha256": "38e072f3b1871e140ebfe0122c30d7f6454c913890503c7e573bba2ea1a62546"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/meadjohnson.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

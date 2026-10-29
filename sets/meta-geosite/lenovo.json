@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 720,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 58
+    },
+    "digest": "sha256:d37acc1927ccddf1ddcd3082d9f8aaf71a66a33f51b3489da027ddb213bb57a5",
+    "entries": 58,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 58
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1615,
+      "format": "classical",
+      "sha256": "942d6a5bbc9637971815a3d182d61500d15897d89f5dd00a91e4fdbb323e41ef"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/lenovo.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

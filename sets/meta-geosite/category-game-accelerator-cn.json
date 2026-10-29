@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 624,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 45
+    },
+    "digest": "sha256:26a59441a03261a162ef7bbd04d2c9ab123044ff635a9051f9bbb4017e52dcc9",
+    "entries": 45,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 45
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1157,
+      "format": "classical",
+      "sha256": "755b3bbf3ab9e838399b9c332e4e0ec5d741ccd97c7b8d84d131e466d1ee178c"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/category-game-accelerator-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

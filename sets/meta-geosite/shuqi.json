@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 312,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 11
+    },
+    "digest": "sha256:9758d39bef828ac7506316d8848d349ab336fc25ae5c741fa5719a7989a9a466",
+    "entries": 11,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 11
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 288,
+      "format": "classical",
+      "sha256": "298f5c3558cd65d52369547ddf482e063105bc5a2fcc7c7f74ba99716f68ca94"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/shuqi.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

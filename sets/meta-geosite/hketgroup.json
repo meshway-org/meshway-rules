@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 352,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 13
+    },
+    "digest": "sha256:d890e232a024e934bf0a9500cf0b012256e429ed3482bfd3ded7b8612116c9b5",
+    "entries": 13,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 13
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 367,
+      "format": "classical",
+      "sha256": "5757291a59ca42bdba0c1c0b952586591051aeacb3bd6b19f4b18098cdab70ee"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/hketgroup.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

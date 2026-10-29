@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 688,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 33
+    },
+    "digest": "sha256:ef8c2c1a9e7a47145748bef61f1c643910a8f150d4f7dd92ad990683168364a2",
+    "entries": 34,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 38
+        },
+        "redundant": 6,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1242,
+      "format": "classical",
+      "sha256": "dc4ec8cb793929dd41a4ad3a0cd2d2e801cdc10f2346425a9e2efa67ae8bb3f3"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/bing.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

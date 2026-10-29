@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 680,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 45
+    },
+    "digest": "sha256:27cacec2f38fff3efec86e24619fc306072a64aa686ec69637a721e5db13246e",
+    "entries": 45,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 18,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 45
+        },
+        "redundant": 18,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1664,
+      "format": "classical",
+      "sha256": "f74fc88f1c99da001cbae87b7884784eb615d88fae6543edf849b15b275e7543"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/ozon.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

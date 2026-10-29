@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2448,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 234
+    },
+    "digest": "sha256:c9803e4c8878d19f9961b40344326ab9e75ff8738953aed9b20fa6308e8e4d35",
+    "entries": 234,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 48,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 252
+        },
+        "redundant": 66,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 7868,
+      "format": "classical",
+      "sha256": "1af9de296cccd9986402a2b28fe876948a480296c29d2322134e40842a03e523"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/mailru.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

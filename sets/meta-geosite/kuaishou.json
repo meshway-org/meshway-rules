@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 472,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 35
+    },
+    "digest": "sha256:a2d23f8106713ad4503ee295ad8bac7c51321499c0a3e53f1e35db39eff6874c",
+    "entries": 35,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 3,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 37
+        },
+        "redundant": 5,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1050,
+      "format": "classical",
+      "sha256": "d5e68d254e03f1377df99728d3b60e451382ec982c8ce4d7cb3b02dbcc88ebb3"
+    }
+  },
+  "upstream": {
+    "commit": "74246501fd12b938b73482f406a6163d1e4a460f",
+    "path": "geo/geosite/classical/kuaishou.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
