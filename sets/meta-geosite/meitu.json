@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 344,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 13
+    },
+    "digest": "sha256:8f29cb8aa7f44b34f037570466631c2b038bf24e31d9df8b676f6cece892ac5d",
+    "entries": 13,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 13
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 341,
+      "format": "classical",
+      "sha256": "ec36eeb7a51a53f3f4241e24558129c69db42fee3a55f3fd93319f40bf6beea4"
+    }
+  },
+  "upstream": {
+    "commit": "4d9cbf4cc642e29a5cb016a724083094d9a01d99",
+    "path": "geo/geosite/classical/meitu.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

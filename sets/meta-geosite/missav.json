@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 264,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 7
+    },
+    "digest": "sha256:4ad87711a3cb7c58ffc2eeb3f13d9d262b00e4bd6f7fd2fbdef13b09fde33975",
+    "entries": 7,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 7
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 176,
+      "format": "classical",
+      "sha256": "c8972cfd5207e980ebcfe4984cc304fd0a0a38df1b0feb8bcfcc92cde50bfa51"
+    }
+  },
+  "upstream": {
+    "commit": "4d9cbf4cc642e29a5cb016a724083094d9a01d99",
+    "path": "geo/geosite/classical/missav.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

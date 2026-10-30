@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1000,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 99
+    },
+    "digest": "sha256:0fcd3c1b4e4514bd507c370cacbc87648f3e3eb289a99fc5c6f9c767f6c377d8",
+    "entries": 99,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 15,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 99
+        },
+        "redundant": 15,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3174,
+      "format": "classical",
+      "sha256": "a31b3f4cef07b62537089e39ec07abf7136b5aff1444f2e297885c68b7cf5cf6"
+    }
+  },
+  "upstream": {
+    "commit": "4d9cbf4cc642e29a5cb016a724083094d9a01d99",
+    "path": "geo/geosite/classical/wildberries.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

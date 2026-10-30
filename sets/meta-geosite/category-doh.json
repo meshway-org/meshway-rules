@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1832,
+    "counts": {
+      "exact": 124,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 3
+    },
+    "digest": "sha256:2b849bb7b0fce873eafaef9fd91f68550759a96d9ce63d62dba2fad79897b20b",
+    "entries": 127,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 124,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 3
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3143,
+      "format": "classical",
+      "sha256": "e8088cecefe6deb03afa037a0a71e36266ac2e483275f74e37860b76022cfa6e"
+    }
+  },
+  "upstream": {
+    "commit": "4d9cbf4cc642e29a5cb016a724083094d9a01d99",
+    "path": "geo/geosite/classical/category-doh.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

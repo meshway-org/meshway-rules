@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1824,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 184
+    },
+    "digest": "sha256:870d77c993179650532d8b35e8af068d242d4c6403d27aa36504ebcc2202a6a8",
+    "entries": 184,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 184
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 5827,
+      "format": "classical",
+      "sha256": "4f8b80d7dc17303c82e3a7bf4369ffe66e6682168d1288b812141aff0a7f56f2"
+    }
+  },
+  "upstream": {
+    "commit": "4d9cbf4cc642e29a5cb016a724083094d9a01d99",
+    "path": "geo/geosite/classical/mastercard.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

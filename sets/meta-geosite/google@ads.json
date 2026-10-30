@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 824,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 53
+    },
+    "digest": "sha256:c1b4fcf5e1e48da8ea9c7cc6cd66fb4254922bed2d631d090f30324bda4a2d58",
+    "entries": 54,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 53
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1855,
+      "format": "classical",
+      "sha256": "a278e309ecdd82578a4d4b604ac20f20d84544494b4b4d399f4ed30a795081f0"
+    }
+  },
+  "upstream": {
+    "commit": "4d9cbf4cc642e29a5cb016a724083094d9a01d99",
+    "path": "geo/geosite/classical/google@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 536,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 35
+    },
+    "digest": "sha256:38b54373ccf8758490865d90abb09b186590c94b50859e88c82c55b93d3e0d4e",
+    "entries": 35,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 35
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1059,
+      "format": "classical",
+      "sha256": "cb0acefa1d933070ba8b9f2e2d36c844a2affc45c43917482d5b136702c032ab"
+    }
+  },
+  "upstream": {
+    "commit": "4d9cbf4cc642e29a5cb016a724083094d9a01d99",
+    "path": "geo/geosite/classical/intuit.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

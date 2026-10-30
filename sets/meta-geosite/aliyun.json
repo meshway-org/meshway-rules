@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 864,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 80
+    },
+    "digest": "sha256:d5d0a0c9cf3fc4017da49d381ed833bef17d56d632368cba52998245673f48e0",
+    "entries": 80,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 88
+        },
+        "redundant": 8,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3039,
+      "format": "classical",
+      "sha256": "1e4c97e6bae409f55e0de9c59c09461b85c9589547b9e1dbd3f7c7b71c54d49f"
+    }
+  },
+  "upstream": {
+    "commit": "4d9cbf4cc642e29a5cb016a724083094d9a01d99",
+    "path": "geo/geosite/classical/aliyun.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

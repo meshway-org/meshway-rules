@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 816,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 58
+    },
+    "digest": "sha256:a1976f70e0269ddb0ea2e2780539ea10ccc51861f299dc0d877413d341c56867",
+    "entries": 58,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 62
+        },
+        "redundant": 4,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1693,
+      "format": "classical",
+      "sha256": "ffde6b4772d4843c98a01da8b140f34b1a8be18d04f43f36d98129993fcce8a4"
+    }
+  },
+  "upstream": {
+    "commit": "4d9cbf4cc642e29a5cb016a724083094d9a01d99",
+    "path": "geo/geosite/classical/category-food-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
