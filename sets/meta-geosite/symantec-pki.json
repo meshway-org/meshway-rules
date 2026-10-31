@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 256,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 5
+    },
+    "digest": "sha256:47b5468eeb3f3e2a38d806fb16b76622b78946d2933f86a0787166f6e3f6c853",
+    "entries": 5,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 5
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 134,
+      "format": "classical",
+      "sha256": "0f07e64c1cf1ec97ecfe582b615b7c7a07dc1a44a825c52baa7d9a6f38b45c44"
+    }
+  },
+  "upstream": {
+    "commit": "e11abe987d686ab803ba4f7cd018324852a6befd",
+    "path": "geo/geosite/classical/symantec-pki.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

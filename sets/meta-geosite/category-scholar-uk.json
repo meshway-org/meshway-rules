@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 768,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 37
+    },
+    "digest": "sha256:eddfec38a8cc585a2c053af0751504268351b5000677edfd5adeaf41ae7e94d0",
+    "entries": 38,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 37
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1233,
+      "format": "classical",
+      "sha256": "6e5ee77d9fae366bc0ab82b95625a81d4b022191fd8f0cf360a877db358e311f"
+    }
+  },
+  "upstream": {
+    "commit": "e11abe987d686ab803ba4f7cd018324852a6befd",
+    "path": "geo/geosite/classical/category-scholar-uk.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

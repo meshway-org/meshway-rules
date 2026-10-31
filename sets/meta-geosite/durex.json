@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 608,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 62
+    },
+    "digest": "sha256:cccbb60e9f7969e4dea71ebf2e5cf2f0690369faeca03618ce92a30242a472eb",
+    "entries": 62,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 62
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1617,
+      "format": "classical",
+      "sha256": "f62f803fafdc2f0212fce7431307b7a79404491c3f1d20e5fde86b8626b07d90"
+    }
+  },
+  "upstream": {
+    "commit": "e11abe987d686ab803ba4f7cd018324852a6befd",
+    "path": "geo/geosite/classical/durex.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 544,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 39
+    },
+    "digest": "sha256:0fa22a880d6ba631537ae40be6861482f17a23d940b77984874733261c4b72ec",
+    "entries": 39,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 39
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1016,
+      "format": "classical",
+      "sha256": "703bdd119185eec5bba6d54495e96dd440f81328c5e9105bf30c42e5669900fa"
+    }
+  },
+  "upstream": {
+    "commit": "e11abe987d686ab803ba4f7cd018324852a6befd",
+    "path": "geo/geosite/classical/category-automobile-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

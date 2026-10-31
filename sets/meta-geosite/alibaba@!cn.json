@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 568,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 38
+    },
+    "digest": "sha256:5fc72873612f7264345bd4ec627dd32eae164ba04ec33d7636972a76ba63c42e",
+    "entries": 38,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 38
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1332,
+      "format": "classical",
+      "sha256": "940aec4e17ac32cebb5d2d2b121f8cc6126dd772b21f83bb5806a7e9626aa8e0"
+    }
+  },
+  "upstream": {
+    "commit": "e11abe987d686ab803ba4f7cd018324852a6befd",
+    "path": "geo/geosite/classical/alibaba@!cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

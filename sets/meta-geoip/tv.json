@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2216,
+    "counts": {
+      "exact": 0,
+      "ipv4": 47,
+      "ipv6": 51,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:525ef5222506f21a68734e799e59feb864297c6f1e4ca77a62db8a9398c85cf3",
+    "entries": 98,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 106,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2917,
+      "format": "classical",
+      "sha256": "c6abede137f344ad8fbcf8a07041e3f6c323c52c5fdd531d4eaa1e4ba9f994b6"
+    }
+  },
+  "upstream": {
+    "commit": "e11abe987d686ab803ba4f7cd018324852a6befd",
+    "path": "geo/geoip/classical/tv.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

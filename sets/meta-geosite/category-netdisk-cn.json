@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1128,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 91
+    },
+    "digest": "sha256:e250af4205465e3bd9e446b7726f4e28605ca3503517b5b85d764fbb6a305627",
+    "entries": 91,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 91
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2355,
+      "format": "classical",
+      "sha256": "303f5ee2113245dbcf528eb5f59fed5925a279686d31a5fe8a15e3f8f050c3fe"
+    }
+  },
+  "upstream": {
+    "commit": "e11abe987d686ab803ba4f7cd018324852a6befd",
+    "path": "geo/geosite/classical/category-netdisk-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

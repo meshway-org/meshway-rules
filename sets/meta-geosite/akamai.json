@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 904,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 81
+    },
+    "digest": "sha256:bb7a7822c4491143dab887004deb9966481f378c6784f34b4188894f35bc1543",
+    "entries": 81,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 81
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2403,
+      "format": "classical",
+      "sha256": "68366421390b6400f51c675d7e19b9044f4a64ea4e338deb08e3a9258b7fde52"
+    }
+  },
+  "upstream": {
+    "commit": "e11abe987d686ab803ba4f7cd018324852a6befd",
+    "path": "geo/geosite/classical/akamai.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

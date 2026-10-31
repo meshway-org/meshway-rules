@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 304,
+    "counts": {
+      "exact": 5,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 1
+    },
+    "digest": "sha256:d7a693391063a9cdde031a67b7c2d21c86d3cd9843f4e82a182e1271ef282606",
+    "entries": 6,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 7",
+          "entry": "DOMAIN-REGEX,^nis.+\\.10010\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 5,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 1
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 169,
+      "format": "classical",
+      "sha256": "94dca3e7a60d0e477fe749921e11dbda4ca5d79cb5cfdbb098e2b74f374c1315"
+    }
+  },
+  "upstream": {
+    "commit": "e11abe987d686ab803ba4f7cd018324852a6befd",
+    "path": "geo/geosite/classical/category-number-verification-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
