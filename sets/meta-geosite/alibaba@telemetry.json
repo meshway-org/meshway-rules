@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 680,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 47
+    },
+    "digest": "sha256:dca090439fa67483acd8177b5a991edc522e13ca96609bc9f6cb6bfc5e0943b9",
+    "entries": 47,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 47
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1608,
+      "format": "classical",
+      "sha256": "08b3c620c426987cb28714f748d7061bb5c3018d8b98d1e6961aeef3e4a3b688"
+    }
+  },
+  "upstream": {
+    "commit": "cf25ccf5046dd902befc64bff21c0047244796a9",
+    "path": "geo/geosite/classical/alibaba@telemetry.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

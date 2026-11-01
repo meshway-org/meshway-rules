@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 6536,
+    "counts": {
+      "exact": 11,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 742
+    },
+    "digest": "sha256:40333ceaff51fbe8b6a6dead6ebffdead3bc9a1d3072e024699fc115434b9624",
+    "entries": 753,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 762",
+          "entry": "DOMAIN-REGEX,^.+-mihayo\\.akamaized\\.net$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 22,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 773
+        },
+        "redundant": 42,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 21434,
+      "format": "classical",
+      "sha256": "41a38dc9492ae9c70758671715c5bd2f138155cb7710fb23da7f4406c90096a9"
+    }
+  },
+  "upstream": {
+    "commit": "cf25ccf5046dd902befc64bff21c0047244796a9",
+    "path": "geo/geosite/classical/category-entertainment-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
