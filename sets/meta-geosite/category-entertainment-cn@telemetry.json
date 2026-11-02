@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 416,
+    "counts": {
+      "exact": 11,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 7
+    },
+    "digest": "sha256:ff3fc690762fe1e4fc2bd7af99ce7c0315b96a55288bd91a12ef0b65bc44b40a",
+    "entries": 18,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 11,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 7
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 574,
+      "format": "classical",
+      "sha256": "ba1a118640ace4481082308dcdac5353f8e0765d01cf1fda0078180ef2747180"
+    }
+  },
+  "upstream": {
+    "commit": "dc60743738b8c81d45b61773d585b97d5c3f428d",
+    "path": "geo/geosite/classical/category-entertainment-cn@telemetry.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
