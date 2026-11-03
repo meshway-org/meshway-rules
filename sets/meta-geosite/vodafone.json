@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 312,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 11
+    },
+    "digest": "sha256:0c0571aa28b6bf053fb702fb8a879cb075914fccf9d5be8cdad7693a103e03ec",
+    "entries": 11,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 11
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 311,
+      "format": "classical",
+      "sha256": "5aa3a20b658ee0f3457133e0f11c48cd6b8f3e3e2a9462a1f3854c0c04eb23ba"
+    }
+  },
+  "upstream": {
+    "commit": "ea0125e318b019267a12ff8294689e2f997991a9",
+    "path": "geo/geosite/classical/vodafone.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

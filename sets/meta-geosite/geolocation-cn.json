@@ -1,0 +1,59 @@
+{
+  "conversion": {
+    "bytes": 40104,
+    "counts": {
+      "exact": 39,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 5374
+    },
+    "digest": "sha256:ca7093456021c702c62940a44c8996231816c9f6637911388c3734b3a79b536a",
+    "entries": 5413,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 5396",
+          "entry": "DOMAIN-REGEX,.+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 5397",
+          "entry": "DOMAIN-REGEX,.+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 5399",
+          "entry": "DOMAIN-REGEX,^.+-mihayo\\.akamaized\\.net$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 46,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 5375
+        },
+        "redundant": 8,
+        "unconverted": {
+          "regex": 3
+        }
+      }
+    },
+    "source": {
+      "bytes": 142553,
+      "format": "classical",
+      "sha256": "5395f35141626169bbac074aa82b55b6152f3f4b381b2ebc04d73acf1ec97ac9"
+    }
+  },
+  "upstream": {
+    "commit": "ea0125e318b019267a12ff8294689e2f997991a9",
+    "path": "geo/geosite/classical/geolocation-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

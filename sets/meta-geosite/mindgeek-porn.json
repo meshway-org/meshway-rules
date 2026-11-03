@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 656,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 46
+    },
+    "digest": "sha256:81d977cde1d8cb57b97d770f9e858f8decee449bea243c23666f18b55f5545d3",
+    "entries": 46,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 46
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1277,
+      "format": "classical",
+      "sha256": "2222d6ef394b87e07ed40f2b5ffba29c2cbcd6f55e37200fdfe7234c65cba1c2"
+    }
+  },
+  "upstream": {
+    "commit": "ea0125e318b019267a12ff8294689e2f997991a9",
+    "path": "geo/geosite/classical/mindgeek-porn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
