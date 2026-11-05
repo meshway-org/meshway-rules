@@ -1,0 +1,59 @@
+{
+  "conversion": {
+    "bytes": 9464,
+    "counts": {
+      "exact": 94,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 782
+    },
+    "digest": "sha256:6344dac651feb43f7c43986e529bcce8832a73d8cd1b91f02b46f1f32d795e3a",
+    "entries": 876,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 842",
+          "entry": "DOMAIN-REGEX,^epicgames-download\\d\\.akamaized\\.net$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 883",
+          "entry": "DOMAIN-REGEX,^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 884",
+          "entry": "DOMAIN-REGEX,^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 97,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 784
+        },
+        "redundant": 5,
+        "unconverted": {
+          "regex": 3
+        }
+      }
+    },
+    "source": {
+      "bytes": 26900,
+      "format": "classical",
+      "sha256": "994cb87df773047ab57fdb2daf420a8f85ec80ebf7523012726acf4d3c368c81"
+    }
+  },
+  "upstream": {
+    "commit": "461790d18a151728e834979aad03cb29e256d181",
+    "path": "geo/geosite/classical/category-games-!cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
