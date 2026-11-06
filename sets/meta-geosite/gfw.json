@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 39648,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 4433
+    },
+    "digest": "sha256:7d76d98c70f3bc173f3ed751ae033d10cd504f3120712b4deba07a0963e5aa8a",
+    "entries": 4433,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 4433
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 121414,
+      "format": "classical",
+      "sha256": "07e7a3357725c47ed2020c323886c1581c9e34e7ca308d12e4cb7d82125eee0d"
+    }
+  },
+  "upstream": {
+    "commit": "1fc5de325d54d3b77d6b86a1db900c5e48ae1003",
+    "path": "geo/geosite/classical/gfw.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
