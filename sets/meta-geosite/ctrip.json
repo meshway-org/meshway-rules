@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 536,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 39
+    },
+    "digest": "sha256:a95853c042029bc57d0bb47d82d6b441cfb1e08165f9a65d4712db4ed395acde",
+    "entries": 39,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 46
+        },
+        "redundant": 7,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1231,
+      "format": "classical",
+      "sha256": "0bfb9b939ac1a26096d9477c4eca18b4d43a95d7016aebcd9b1a1a674abb8fdc"
+    }
+  },
+  "upstream": {
+    "commit": "7861772837d405921b48f911f458546b849b7e66",
+    "path": "geo/geosite/classical/ctrip.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

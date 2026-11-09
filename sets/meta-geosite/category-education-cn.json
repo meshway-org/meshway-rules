@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2032,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 198
+    },
+    "digest": "sha256:2e2b07c12feec9a3b02778aeb1beeac9e783a789a1b6857bbfcea8d147cd2fd4",
+    "entries": 199,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 3,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 199
+        },
+        "redundant": 3,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 5309,
+      "format": "classical",
+      "sha256": "91873859cea089ce8a389f8897daca5efb83025e0fd66a5d7123520a960e2683"
+    }
+  },
+  "upstream": {
+    "commit": "7861772837d405921b48f911f458546b849b7e66",
+    "path": "geo/geosite/classical/category-education-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
