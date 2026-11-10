@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 4736,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 557
+    },
+    "digest": "sha256:e2a76585c57f1179fd67c32c32e6249d1aec1798d6c75018c9f7c21420a703bc",
+    "entries": 557,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 687
+        },
+        "redundant": 131,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 19750,
+      "format": "classical",
+      "sha256": "145f45c732c9d4da2dd4b95b1c71713b04ab5e58a7d404a8c2d4b60cab78e13c"
+    }
+  },
+  "upstream": {
+    "commit": "e731d6be701afb91548fe0b76380d5022f7f4c02",
+    "path": "geo/geosite/classical/tencent.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

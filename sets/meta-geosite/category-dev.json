@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 7056,
+    "counts": {
+      "exact": 71,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 589
+    },
+    "digest": "sha256:874da74f5a8b729ca4ce8d1698ff648308281a2b30924f80669a96f7804f4aea",
+    "entries": 660,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 653",
+          "entry": "DOMAIN-REGEX,.+\\.dkr\\.ecr\\.[^\\.]+\\.amazonaws\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 92,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 600
+        },
+        "redundant": 32,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 20850,
+      "format": "classical",
+      "sha256": "b5635e20e448642bd374aa2c0d3a65c099f6839ba5a140b81428b5b6db6ec44d"
+    }
+  },
+  "upstream": {
+    "commit": "e731d6be701afb91548fe0b76380d5022f7f4c02",
+    "path": "geo/geosite/classical/category-dev.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
