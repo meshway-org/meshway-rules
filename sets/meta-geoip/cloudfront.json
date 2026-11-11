@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2848,
+    "counts": {
+      "exact": 0,
+      "ipv4": 138,
+      "ipv6": 48,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:affdd0c147482f6a1450989deebaee5168cd675f557516488fee883eba2483bb",
+    "entries": 186,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 248,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 6279,
+      "format": "classical",
+      "sha256": "f6ed78934049dab18386fdc890b3da9522e1f609a41d52ca3fcf3454328cceb7"
+    }
+  },
+  "upstream": {
+    "commit": "458e716abd80ff8c6aee2b7d15c4f94b20e9d279",
+    "path": "geo/geoip/classical/cloudfront.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

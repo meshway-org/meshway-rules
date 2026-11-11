@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1480,
+    "counts": {
+      "exact": 0,
+      "ipv4": 55,
+      "ipv6": 26,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:95994b4669772eb16e5f497ecde452c61c483ddb31acc31ed51fe92eb9c13dd7",
+    "entries": 81,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 123,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3112,
+      "format": "classical",
+      "sha256": "2c161756a1e4ec68421f413510056be37669fdf72def8f55f720cc45b84ae67e"
+    }
+  },
+  "upstream": {
+    "commit": "458e716abd80ff8c6aee2b7d15c4f94b20e9d279",
+    "path": "geo/geoip/classical/facebook.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
