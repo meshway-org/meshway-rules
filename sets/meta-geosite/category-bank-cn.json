@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 656,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 60
+    },
+    "digest": "sha256:52fc2b10beb1fdda517931eab73d38b197b1621e92a0870b13b426d30e3e1750",
+    "entries": 60,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 60
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1622,
+      "format": "classical",
+      "sha256": "32c197e60cebb35b4303fc2882b09d490691dbdc48ccb4a4f772ecf961afda2a"
+    }
+  },
+  "upstream": {
+    "commit": "2963a49408bbc37f2c2ffa6e8329fe11076a816b",
+    "path": "geo/geosite/classical/category-bank-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
