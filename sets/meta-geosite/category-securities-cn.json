@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1472,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 171
+    },
+    "digest": "sha256:9c0c1351beaa0601b0517ab42582dfe43fa80791577804d809ab7ef164b2759e",
+    "entries": 171,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 171
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 4446,
+      "format": "classical",
+      "sha256": "990fd68af390520a8c6a3a184bf04626656e89d6ad6b78d3fdaab072205780c4"
+    }
+  },
+  "upstream": {
+    "commit": "1127bb69cd31beba3d8fd851a9dba92e66eead42",
+    "path": "geo/geosite/classical/category-securities-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

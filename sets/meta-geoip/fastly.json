@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1456,
+    "counts": {
+      "exact": 0,
+      "ipv4": 48,
+      "ipv6": 27,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:b6acf893d8a7ddebd9201bd1d63208cd6010e6d31ae427b40ff3b16d7e124e65",
+    "entries": 75,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 96,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2384,
+      "format": "classical",
+      "sha256": "0b55c9e2cd084cd7a6ac01c766e3c395fb1e7b4695838f125e4e40ffbcb00aae"
+    }
+  },
+  "upstream": {
+    "commit": "1127bb69cd31beba3d8fd851a9dba92e66eead42",
+    "path": "geo/geoip/classical/fastly.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

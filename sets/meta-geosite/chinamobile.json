@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 552,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 37
+    },
+    "digest": "sha256:e1b1d06f09e3e079482c9c19b093f9584d8a3e929ac754ae9212032383f10712",
+    "entries": 37,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 39
+        },
+        "redundant": 2,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 1147,
+      "format": "classical",
+      "sha256": "dc6931ece1db0751facfb6d7a8b26d0de63d5d09a33d91d4cde63385124a3764"
+    }
+  },
+  "upstream": {
+    "commit": "1127bb69cd31beba3d8fd851a9dba92e66eead42",
+    "path": "geo/geosite/classical/chinamobile.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
