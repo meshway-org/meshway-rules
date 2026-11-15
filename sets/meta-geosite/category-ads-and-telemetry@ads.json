@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 7872,
+    "counts": {
+      "exact": 158,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 577
+    },
+    "digest": "sha256:bc20200eed2fb9ef839b99a488404f1ba28595b985d7833db257d6080d105285",
+    "entries": 735,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 195",
+          "entry": "DOMAIN-REGEX,^speed\\.(coe|open)\\.ad\\.[a-z]{2,6}\\.prod\\.hosts\\.ooklaserver\\.net$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 218,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 760
+        },
+        "redundant": 243,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 30952,
+      "format": "classical",
+      "sha256": "6782b8b760ba68fba0e2751d050b6d094bdaa6d913c2bfb8c2904036ea1aa834"
+    }
+  },
+  "upstream": {
+    "commit": "f181fff77f5f243f69bfc12b45e0fa10bed899fc",
+    "path": "geo/geosite/classical/category-ads-and-telemetry@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
