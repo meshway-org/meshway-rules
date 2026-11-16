@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1408,
+    "counts": {
+      "exact": 3,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 121
+    },
+    "digest": "sha256:6d52c60432befef152c9090e72b51ac60a74f9d69a3c873f299d10faa00c59b8",
+    "entries": 124,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 18,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 138
+        },
+        "redundant": 32,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 4213,
+      "format": "classical",
+      "sha256": "36447175c239acf84722e7a5fc9958e500ad1ff5855eddf79b002bc97ed78af6"
+    }
+  },
+  "upstream": {
+    "commit": "c50286e52b8f6497af083871747d4b49a4bb77a2",
+    "path": "geo/geosite/classical/yandex.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
