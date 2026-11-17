@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 744,
+    "counts": {
+      "exact": 3,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 53
+    },
+    "digest": "sha256:284993fa3643898578610421f8de85604322c31cd4fede9f842909553f057211",
+    "entries": 56,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 48,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 53
+        },
+        "redundant": 45,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3429,
+      "format": "classical",
+      "sha256": "23e0ea5d2d5cf28391d005fa50a8723bb33fba47d2847efa6c9295f21063eac4"
+    }
+  },
+  "upstream": {
+    "commit": "1916b151c3661fc74f709ac69c271ff9ae912027",
+    "path": "geo/geosite/classical/itunes.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

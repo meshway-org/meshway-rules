@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1800,
+    "counts": {
+      "exact": 6,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 122
+    },
+    "digest": "sha256:235bcd84fd5618028575b37ed9da71ee3e1df44cc5dad21e1c688e55f9633915",
+    "entries": 128,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 6,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 122
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 3525,
+      "format": "classical",
+      "sha256": "2bfdbd3ef9e42be7f0f9e060f8486dc6513f867e48433236be9d5b559d00f814"
+    }
+  },
+  "upstream": {
+    "commit": "1916b151c3661fc74f709ac69c271ff9ae912027",
+    "path": "geo/geosite/classical/category-anticensorship.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
