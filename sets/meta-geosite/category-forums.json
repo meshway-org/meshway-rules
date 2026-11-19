@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1304,
+    "counts": {
+      "exact": 2,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 110
+    },
+    "digest": "sha256:56eda1ed02f7d28747ba6e14e271a62a48e0e8d9554ae0c52097c8b600b00f62",
+    "entries": 112,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 112
+        },
+        "redundant": 2,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 2972,
+      "format": "classical",
+      "sha256": "5f6a6e722a48c7dbea50e3ab409b6d6adee7ee22eb87fabcc7d38c90f20446ed"
+    }
+  },
+  "upstream": {
+    "commit": "21a0aeef70681851c15d4741381dda538c9e8700",
+    "path": "geo/geosite/classical/category-forums.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

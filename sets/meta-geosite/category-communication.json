@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 1776,
+    "counts": {
+      "exact": 2,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 158
+    },
+    "digest": "sha256:a0c8e7587dca64481325f01052dbd6bbcc8bd28c3afdc856c851f468bc629afb",
+    "entries": 160,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 158
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 4454,
+      "format": "classical",
+      "sha256": "e3157d38bdfe0e3c182f85cc949bfd01ca41a9339b19b5d587a1ab7016ba96ab"
+    }
+  },
+  "upstream": {
+    "commit": "21a0aeef70681851c15d4741381dda538c9e8700",
+    "path": "geo/geosite/classical/category-communication.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

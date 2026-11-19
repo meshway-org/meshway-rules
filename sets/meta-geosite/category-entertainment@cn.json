@@ -1,0 +1,54 @@
+{
+  "conversion": {
+    "bytes": 1472,
+    "counts": {
+      "exact": 61,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 42
+    },
+    "digest": "sha256:f4b37e9efd6933b5c1ad58690dc21efeb9b9fbe28c616820c0c1b273a227dde7",
+    "entries": 103,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 101",
+          "entry": "DOMAIN-REGEX,^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 102",
+          "entry": "DOMAIN-REGEX,^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 61,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 42
+        },
+        "redundant": 0,
+        "unconverted": {
+          "regex": 2
+        }
+      }
+    },
+    "source": {
+      "bytes": 3538,
+      "format": "classical",
+      "sha256": "4a21fe47053453d25b9770f4cb8d8713555504f53731486b61e108912b0b4b6c"
+    }
+  },
+  "upstream": {
+    "commit": "21a0aeef70681851c15d4741381dda538c9e8700",
+    "path": "geo/geosite/classical/category-entertainment@cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
