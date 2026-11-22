@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 552,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 27
+    },
+    "digest": "sha256:a947852c0aa1564c8e5e08c38730da2c5631a35b066aef3e747f5d5a3f99cf6f",
+    "entries": 27,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 27
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 743,
+      "format": "classical",
+      "sha256": "63285ea5f1c889d2817bd7e60ebcef5b9a2a429ce9b8c1e7696144dc5a82ef2b"
+    }
+  },
+  "upstream": {
+    "commit": "ca7d9d641cf31a25d465861d8af0352e6721b6e0",
+    "path": "geo/geosite/classical/vokino.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
