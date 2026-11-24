@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 1768,
+    "counts": {
+      "exact": 2,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 181
+    },
+    "digest": "sha256:8129ded3752d4fb2348a38bec5faf5ef824d4fcdcb0d31c4bd7c3f8d17878351",
+    "entries": 183,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 184",
+          "entry": "DOMAIN-REGEX,^.+-mihayo\\.akamaized\\.net$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 2,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 182
+        },
+        "redundant": 1,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 4862,
+      "format": "classical",
+      "sha256": "3ec4d61d751f0c9d070ad4f1b0defbbb623ff041237e9d9551d7b22b3bdb7ded"
+    }
+  },
+  "upstream": {
+    "commit": "ce616601064422e7acfe75ea201549dc7372becf",
+    "path": "geo/geosite/classical/category-games-cn.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
