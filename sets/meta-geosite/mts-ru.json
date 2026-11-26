@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 336,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 13
+    },
+    "digest": "sha256:dc931806d74e574485f3ccab0aaf2f1bb7ee663d4419ba50498d24ab2a09adf9",
+    "entries": 13,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 15
+        },
+        "redundant": 2,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 376,
+      "format": "classical",
+      "sha256": "0c81ef3be2f1b71f52029882057e6fb414a1fbe6d456079a3c67dfd8efecd26f"
+    }
+  },
+  "upstream": {
+    "commit": "69f94483c308940c277035c66eb78ff529efd977",
+    "path": "geo/geosite/classical/mts-ru.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

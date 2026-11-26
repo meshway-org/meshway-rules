@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 3424,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 353
+    },
+    "digest": "sha256:92de07c242934d6a16f9c0accf725d5b638591875497636fab106daf40dd378a",
+    "entries": 353,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 3,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 355
+        },
+        "redundant": 5,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 9611,
+      "format": "classical",
+      "sha256": "4722be4427b1ab241f323ecb34fed1c318b8fb0c9f0b55c3dbbfb464b98a3b44"
+    }
+  },
+  "upstream": {
+    "commit": "69f94483c308940c277035c66eb78ff529efd977",
+    "path": "geo/geosite/classical/category-bank-ru.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "conversion": {
+    "bytes": 504,
+    "counts": {
+      "exact": 3,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 26
+    },
+    "digest": "sha256:9986e90f5d6a519ddf9f0fa45f3095d6cf53f31da0e2e87a1104fd2bfb75f4c1",
+    "entries": 29,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 31",
+          "entry": "DOMAIN-REGEX,^ewcdn[0-9]+\\.nowe\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 4,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 26
+        },
+        "redundant": 1,
+        "unconverted": {
+          "regex": 1
+        }
+      }
+    },
+    "source": {
+      "bytes": 831,
+      "format": "classical",
+      "sha256": "cea0371d17d6c2cbc1a2ddc9c506790b6dac33487eafc2783c8ea02f979ba61d"
+    }
+  },
+  "upstream": {
+    "commit": "69f94483c308940c277035c66eb78ff529efd977",
+    "path": "geo/geosite/classical/pccw.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

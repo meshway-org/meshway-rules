@@ -1,0 +1,94 @@
+{
+  "conversion": {
+    "bytes": 20688,
+    "counts": {
+      "exact": 222,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 1870
+    },
+    "digest": "sha256:8317031db95910e148004de1d6309ab4200cdbcc88f71c9a6e20feb3ba5e1021",
+    "entries": 2092,
+    "format": 1,
+    "report": {
+      "items": [
+        {
+          "at": "line 2013",
+          "entry": "DOMAIN-REGEX,^hses[1-7]?\\.akamaized\\.net$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 2014",
+          "entry": "DOMAIN-REGEX,(^|\\.)apiproxy-device-prod-nlb-.+\\.amazonaws\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 2015",
+          "entry": "DOMAIN-REGEX,(^|\\.)apiproxy-website-nlb-prod-.+\\.amazonaws\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 2016",
+          "entry": "DOMAIN-REGEX,(^|\\.)dualstack\\.apiproxy-.+\\.amazonaws\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 2017",
+          "entry": "DOMAIN-REGEX,(^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 2018",
+          "entry": "DOMAIN-REGEX,^[0-9]+vod-adaptive\\.akamaized\\.net$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 2019",
+          "entry": "DOMAIN-REGEX,^ewcdn[0-9]+\\.nowe\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 2020",
+          "entry": "DOMAIN-REGEX,^epicgames-download\\d\\.akamaized\\.net$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 2151",
+          "entry": "DOMAIN-REGEX,^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$",
+          "reason": "regex"
+        },
+        {
+          "at": "line 2152",
+          "entry": "DOMAIN-REGEX,^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$",
+          "reason": "regex"
+        }
+      ],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 291,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 1874
+        },
+        "redundant": 73,
+        "unconverted": {
+          "regex": 10
+        }
+      }
+    },
+    "source": {
+      "bytes": 64989,
+      "format": "classical",
+      "sha256": "1e68c1960ae61d5ef94d9321a693c332d8193b90c52102210e5f66a328cf1e92"
+    }
+  },
+  "upstream": {
+    "commit": "69f94483c308940c277035c66eb78ff529efd977",
+    "path": "geo/geosite/classical/category-entertainment.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
