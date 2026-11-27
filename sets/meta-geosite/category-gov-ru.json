@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 3608,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 409
+    },
+    "digest": "sha256:a2a464c2f52e4f9d7de7f56b040572e03d6a89b8a5cb4063343d7ecb22e68533",
+    "entries": 409,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 409
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 10682,
+      "format": "classical",
+      "sha256": "f9e013821254e08691770de5f54f86eb98e87e191f885e841189cca606a687e2"
+    }
+  },
+  "upstream": {
+    "commit": "59032b3daac1d1a2643a77d6189c2a882900d54a",
+    "path": "geo/geosite/classical/category-gov-ru.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 272,
+    "counts": {
+      "exact": 0,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 8
+    },
+    "digest": "sha256:1cafcf698b780ddf46eeb95675175ccf79044ef0e8da175ec0aed4f12d11ca65",
+    "entries": 8,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 8
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 190,
+      "format": "classical",
+      "sha256": "91efd927a241902a7ad9d6689351ae29a40f9b49a62495c4d505f5d373b911f5"
+    }
+  },
+  "upstream": {
+    "commit": "59032b3daac1d1a2643a77d6189c2a882900d54a",
+    "path": "geo/geosite/classical/transtelecom.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
