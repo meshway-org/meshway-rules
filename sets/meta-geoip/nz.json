@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 47512,
+    "counts": {
+      "exact": 0,
+      "ipv4": 1925,
+      "ipv6": 997,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 0
+    },
+    "digest": "sha256:db68ce6e661c957de1f40f35557b0b347237ccd437e84d23e0bb9f6d240f0b11",
+    "entries": 2922,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 3896,
+          "exact": 0,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 0
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 100251,
+      "format": "classical",
+      "sha256": "3ee51fac4b2ed14cab693dc8f731e6b7c4d97f7662cef7f244d8c9cfb2b8dfea"
+    }
+  },
+  "upstream": {
+    "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
+    "path": "geo/geoip/classical/nz.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

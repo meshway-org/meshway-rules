@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 6280,
+    "counts": {
+      "exact": 1,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 587
+    },
+    "digest": "sha256:5a848da03a881a7833a698f258172d8bf372e1d7273f6c2df01e3c43a8df5dc8",
+    "entries": 588,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 1,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 587
+        },
+        "redundant": 0,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 21275,
+      "format": "classical",
+      "sha256": "e3a8d6899b0e5b2f60a51ae6ace21a9d063a612e462728b87c14b63877f39f94"
+    }
+  },
+  "upstream": {
+    "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
+    "path": "geo/geosite/classical/beats.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}

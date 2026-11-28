@@ -1,0 +1,41 @@
+{
+  "conversion": {
+    "bytes": 2536,
+    "counts": {
+      "exact": 50,
+      "ipv4": 0,
+      "ipv6": 0,
+      "keyword": 0,
+      "subdomain": 0,
+      "suffix": 146
+    },
+    "digest": "sha256:0077388b0ec6bfd43696e976b343461c1fd565c0aa6ad2a43898bf663ca77bc2",
+    "entries": 196,
+    "format": 1,
+    "report": {
+      "items": [],
+      "summary": {
+        "converted": {
+          "cidr": 0,
+          "exact": 60,
+          "keyword": 0,
+          "subdomain": 0,
+          "suffix": 183
+        },
+        "redundant": 47,
+        "unconverted": {}
+      }
+    },
+    "source": {
+      "bytes": 8094,
+      "format": "classical",
+      "sha256": "3343aa35f6a9238b3f0dda04705cbb21cace2feaec6ea0d9a9492b757ce73a7d"
+    }
+  },
+  "upstream": {
+    "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
+    "path": "geo/geosite/classical/category-telemetry@ads.list",
+    "ref": "meta",
+    "repo": "MetaCubeX/meta-rules-dat"
+  }
+}
